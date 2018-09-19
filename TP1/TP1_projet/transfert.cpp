@@ -40,6 +40,12 @@ void Transfert::setReceveur(Utilisateur * receveur)
 
 void Transfert::afficherTransfert() const
 {
+<<<<<<< HEAD
 	cout << donneur_->getNom() << " pour : " << receveur_->getNom() << " d'un montant de : "<< montant_ << " $";
+=======
+	cout << "Montant: " << montant_ << " $/n"
+		<< "Donneur: " << donneur_ << "/n"
+		<< "Receveur: " << receveur_ << "/n";
+>>>>>>> refs/remotes/origin/jonathan
 }
 
