@@ -1,20 +1,12 @@
 #include "groupe.h"
 
-<<<<<<< HEAD
 Groupe::Groupe(): nom_("Aucun"), totalDepenses_(0.0), nombreDepenses_(0), nombreUtilisateurs_(0), tailleTabUtilisateurs_(5), tailleTabDepenses_(10), comptes_(nullptr), listeTransferts_(nullptr), nombreTrensferts_(0)
-=======
-Groupe::Groupe(): nom_("Aucun"), totalDepenses_(0.0), nombreDepenses_(0), nombreUtilisateurs_(0), tailleTabUtilisateurs_(5), tailleTabDepenses_(10), comptes_(NULL), listeTransferts_(NULL), nombreTrensferts_(0)
->>>>>>> refs/remotes/origin/jonathan
 {
 	listeDepenses_ = new Depense*[tailleTabDepenses_];
 	listeUtilisateurs_ = new Utilisateur*[tailleTabUtilisateurs_];
 }
 
-<<<<<<< HEAD
 Groupe::Groupe(string & nom, unsigned int tailleTabDepenses, unsigned int tailleTabUtilisateurs) : nom_(nom), totalDepenses_(0.0), nombreDepenses_(0), nombreUtilisateurs_(0), tailleTabUtilisateurs_(tailleTabUtilisateurs), tailleTabDepenses_(tailleTabDepenses), comptes_(nullptr), listeTransferts_(nullptr), nombreTrensferts_(0)
-=======
-Groupe::Groupe(string & nom, unsigned int tailleTabDepenses, unsigned int tailleTabUtilisateurs) : nom_(nom), totalDepenses_(0.0), listeUtilisateurs_(NULL), nombreDepenses_(0), nombreUtilisateurs_(0), tailleTabUtilisateurs_(tailleTabUtilisateurs), tailleTabDepenses_(tailleTabDepenses), listeDepenses_(NULL), comptes_(NULL), listeTransferts_(NULL), nombreTrensferts_(0)
->>>>>>> refs/remotes/origin/jonathan
 {
 	listeDepenses_ = new Depense*[tailleTabDepenses];
 	listeUtilisateurs_ = new Utilisateur*[tailleTabUtilisateurs];
@@ -119,25 +111,17 @@ void Groupe::equilibrerComptes()
 	while (equilibrageEnCours == true)
 	{
 		equilibrageEnCours = false;
-<<<<<<< HEAD
+
 		for (unsigned int i = 0; i < nombreUtilisateurs_; i++)
 		{
 			if (comptes_[i] != 0.0)
 			{
 				for (unsigned int j = 0; j < nombreUtilisateurs_; j++)
-=======
-		for (int i = 0; i < nombreUtilisateurs_; i++)
-		{
-			if (comptes_[i] != 0.0)
-			{
-				for (int j = 0; j < nombreUtilisateurs_; j++)
->>>>>>> refs/remotes/origin/jonathan
 				{
 					if (i != j)
 					{
 						if ((comptes_[i] != 0.0) && (comptes_[j] != 0.0))
 						{
-<<<<<<< HEAD
 							if ((comptes_[i] + comptes_[j]) == 0.0)
 							{
 								equilibrageEnCours = true;
@@ -147,17 +131,7 @@ void Groupe::equilibrerComptes()
 									listeTransferts_[nombreTrensferts_++] = new Transfert(comptes_[j], listeUtilisateurs_[i], listeUtilisateurs_[j]);
 								comptes_[i] = 0.0;
 								comptes_[j] = 0.0;
-=======
-							if ((comptes_[i] + comptes_[j]) == 0)
-							{
-								equilibrageEnCours = true;
-								if (comptes_[i] > 0)
-									listeTransferts_[nombreTrensferts_++] = new Transfert(comptes_[i], listeUtilisateurs_[j], listeUtilisateurs_[i]);
-								else
-									listeTransferts_[nombreTrensferts_++] = new Transfert(comptes_[j], listeUtilisateurs_[i], listeUtilisateurs_[j]);
-								comptes_[i] = 0;
-								comptes_[j] = 0;
->>>>>>> refs/remotes/origin/jonathan
+
 							}
 						}
 					}
@@ -167,7 +141,6 @@ void Groupe::equilibrerComptes()
 
 		if (equilibrageEnCours == false)
 		{
-<<<<<<< HEAD
 			for (unsigned int i = 0; i < nombreUtilisateurs_; i++)
 			{
 				if ((comptes_[i] != 0.0) && (equilibrageEnCours == false))
@@ -177,24 +150,12 @@ void Groupe::equilibrerComptes()
 						if ((i != j) && (equilibrageEnCours == false))
 						{
 							if ((comptes_[i] > 0.0) && (comptes_[j] < 0))
-=======
-			for (int i = 0; i < nombreUtilisateurs_; i++)
-			{
-				if ((comptes_[i] != 0.0) && (equilibrageEnCours == false))
-				{
-					for (int j = 0; j < nombreUtilisateurs_; j++)
-					{
-						if ((i != j) && (equilibrageEnCours == false))
-						{
-							if ((comptes_[i] > 0) && (comptes_[j] < 0))
->>>>>>> refs/remotes/origin/jonathan
 							{
 								equilibrageEnCours = true;
 								if (abs(comptes_[i]) < abs(comptes_[j]))
 								{
 									listeTransferts_[nombreTrensferts_++] = new Transfert(comptes_[i], listeUtilisateurs_[j], listeUtilisateurs_[i]);
 									comptes_[j] += comptes_[i];
-<<<<<<< HEAD
 									comptes_[i] = 0.0;
 								}
 								else if (abs(comptes_[i]) > abs(comptes_[j]))
@@ -202,15 +163,6 @@ void Groupe::equilibrerComptes()
 									listeTransferts_[nombreTrensferts_++] = new Transfert(abs(comptes_[j]), listeUtilisateurs_[j], listeUtilisateurs_[i]);
 									comptes_[i] += comptes_[j];
 									comptes_[j] = 0.0;
-=======
-									comptes_[i] = 0;
-								}
-								else if (abs(comptes_[i]) > abs(comptes_[j]))
-								{
-									listeTransferts_[nombreTrensferts_++] = new Transfert(comptes_[j], listeUtilisateurs_[j], listeUtilisateurs_[i]);
-									comptes_[i] += comptes_[j];
-									comptes_[j] = 0;
->>>>>>> refs/remotes/origin/jonathan
 								}
 							}
 						}
@@ -219,13 +171,6 @@ void Groupe::equilibrerComptes()
 			}
 		}
 	}
-<<<<<<< HEAD
-=======
-	//Est-ce que deux comptes sont egaux?
-	//Est-ce qu'une combinaison de deux comptes peut equilibrer un des comptes
-	// .. jusqu'a nombre d'utilisateur
-
->>>>>>> refs/remotes/origin/jonathan
 }
 
 void Groupe::afficherGroupe() const
@@ -237,7 +182,6 @@ void Groupe::afficherGroupe() const
 	for (unsigned i = 0; i < nombreUtilisateurs_; i++)
 		listeUtilisateurs_[i]->afficherUtilisateur();
 
-<<<<<<< HEAD
 	bool afficherComptes = false;
 	for (unsigned int i = 0; i < nombreUtilisateurs_; i++)
 	{
@@ -248,15 +192,11 @@ void Groupe::afficherGroupe() const
 	if (afficherComptes == true)
 	{
 		cout << "Voici les comptes:";
-=======
-	cout << "Voici les comptes:";
->>>>>>> refs/remotes/origin/jonathan
 		for (unsigned i = 0; i < nombreUtilisateurs_; i++)
 		{
 			cout << "\n" << listeUtilisateurs_[i]->getNom();
 			cout << ": " << comptes_[i] << " $";
 		}
-<<<<<<< HEAD
 	}
 	else
 	{
@@ -267,7 +207,5 @@ void Groupe::afficherGroupe() const
 			listeTransferts_[i]->afficherTransfert();
 		}
 	}
-=======
->>>>>>> refs/remotes/origin/jonathan
 }
 
