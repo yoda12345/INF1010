@@ -1,32 +1,52 @@
+/*
+depense.cpp
+Créé par: Jonathan Laroche (1924839) et Hakim Payman (1938609)
+Date de création: 14 septembre 2018
+Date de modification: 21 septembre 2018
+Description fichier:
+Fichier source de la classe Depense
+
+*/
 #include "depense.h"
 
-Depense::Depense(): titre_("Aucune"), montant_(0.0)
+// Constructeurs
+
+Depense::Depense(): titre_("Inconnu"), montant_(0.0)
 {
 }
 
-Depense::Depense(string & titre, double montant): titre_(titre), montant_(montant)
+Depense::Depense(const string & titre, double montant): 
+		 titre_(titre), montant_(montant)
 {
 }
+
+// Méthodes d'accès
 
 string Depense::getTitre() const
 {
 	return titre_;
 }
 
+
 double Depense::getMontant() const
 {
 	return montant_;
 }
 
-void Depense::setTitre(string & titre)
+//Methodes de modifications
+
+void Depense::setTitre(const string & titre)
 {
 	titre_ = titre;
 }
+
 
 void Depense::setMontant(double montant)
 {
 	montant_ = montant;
 }
+
+//Méthode d'affichage
 
 void Depense::afficherDepense() const
 {

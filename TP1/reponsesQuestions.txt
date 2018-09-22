@@ -1,0 +1,9 @@
+1. Quel est le lien (agrégation ou composition) entre les classes Groupe et Transfert ?
+Composition, les objets de classe Transfert sont créés au sein des objets de la classe Groupe 
+et détruit lors leur destruction.
+
+2. Quel effet aura une méthode si elle a un const ?
+Si la méthode est déclaré const, elle ne pourra pas modifier les attibuts de l'objet
+et ne pourra pas appeler de méthodes qui ne sont pas déclaré const.
+Si c'est l'un des paramètres passer par adresse qui est declaré const,
+la méthode ne pourra pas modifier ce paramètre.

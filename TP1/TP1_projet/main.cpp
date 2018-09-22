@@ -1,14 +1,23 @@
-
+/*
+main.cpp
+Créé par: Jonathan Laroche (1924839) et Hakim Payman (1938609)
+Date de création: 14 septembre 2018
+Date de modification: 21 septembre 2018
+Description fichier:
+Fichier source d'un programme permetettant d'équilibrer les dépenses au sein d'un groupe
+Les réponses aux questions sont dans le fichier texte
+*/
 #include <iostream>
 #include "groupe.h"
 
 using namespace std; 
 
 int main(int argc, const char * argv[]) {
-    cout << "\t \tBienvenue sur PolyCount " << endl << " *****************************************";
+    cout << "\t \tBienvenue sur PolyCount " << endl 
+		 << " *****************************************";
     // Creer un  groupe pour  6 depenses et 4 utilisateurs.
 	string nomGroupe = "Ete2018";
-	Groupe groupe(nomGroupe, 0, 0);// Ajouter plus tard les 6 et 4!!!!!!!!!!!!!!!!!!!!!!!!
+	Groupe groupe(nomGroupe, 6, 4);
     
     // Creer 5 utlisateurs.
 	string nomUtilisateur1 = "Utilisateur1";
@@ -33,7 +42,7 @@ int main(int argc, const char * argv[]) {
 	string nomDepense6 = "Depense6";
 	string nomDepense7 = "Depense7";
 
-	Depense* depense1 = new Depense(nomDepense1, 1.1);
+	Depense* depense1 = new Depense(nomDepense1, 8.8);
 	Depense* depense2 = new Depense(nomDepense2, 2.2);
 	Depense* depense3 = new Depense(nomDepense3, 3.3);
 	Depense* depense4 = new Depense(nomDepense4, 4.4);

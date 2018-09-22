@@ -1,4 +1,12 @@
+/*
+groupe.h
+Créé par: Jonathan Laroche (1924839) et Hakim Payman (1938609)
+Date de création: 14 septembre 2018
+Date de modification: 21 septembre 2018
+Description fichier:
+Fichier d'entête de la classe Groupe
 
+*/
 #ifndef GROUPE_H
 #define GROUPE_H
 
@@ -11,7 +19,8 @@ class Groupe{
     public :
     //Constructeurs
     Groupe();
-    Groupe( string& nom, unsigned int tailleTabDepenses, unsigned int tailleTabUtilisateurs);
+    Groupe(const string& nom, unsigned int tailleTabDepenses = 10, 
+			unsigned int tailleTabUtilisateurs = 5);
     
     //Destructeur
     ~Groupe();
@@ -22,7 +31,7 @@ class Groupe{
     double getTotal() const;
     
     //Methodes de modification
-    void setNom(string& nom);
+    void setNom(const string& nom);
     
     //Methodes d'ajout
     void ajouterDepense(Depense* uneDepense, Utilisateur* payePar);
@@ -36,7 +45,7 @@ class Groupe{
     void afficherGroupe() const;
     
     private :
-        string nom_;
+        string nom_ = "Inconnu";
         double totalDepenses_;
         Utilisateur** listeUtilisateurs_;
         unsigned int nombreDepenses_;
