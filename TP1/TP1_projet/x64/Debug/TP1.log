@@ -1,2 +1,8 @@
-﻿  groupe.cpp
+﻿  utilisateur.cpp
+  transfert.cpp
+  main.cpp
+  groupe.cpp
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\tp1\tp1_projet\groupe.cpp(167): warning C4018: '<' : incompatibilité signed/unsigned
+  depense.cpp
+  Génération de code en cours...
   TP1.vcxproj -> C:\Users\Utilisateur\OneDrive - polymtl.ca\Aut.2018\INF1010\gitTeam\TP1\TP1_projet\x64\Debug\TP1.exe
