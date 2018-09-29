@@ -41,7 +41,13 @@ void Transfert::setReceveur(Utilisateur *receveur) {
 }
 
 //Methode affichage
-void Transfert::afficherTransfert() const {
-	cout << "Transfert fait par " << expediteur_->getNom() << " vers " << receveur_->getNom() 
-		<< " d'un montant de " << montant_ << endl;
+//void Transfert::afficherTransfert() const {
+//	cout << "Transfert fait par " << expediteur_->getNom() << " vers " << receveur_->getNom() 
+//		<< " d'un montant de " << montant_ << endl;
+//}
+
+ostream & operator<<(ostream & sortie, const Transfert transfert)
+{
+	return sortie << "Transfert fait par " << transfert.expediteur_->getNom() << " vers " << transfert.receveur_->getNom()
+		<< " d'un montant de " << transfert.montant_ << endl;
 }

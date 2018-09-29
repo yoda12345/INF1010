@@ -29,8 +29,8 @@ public:
 	void setReceveur(Utilisateur* receveur);
 
 	// TODO: Remplacer par une surcharge de l'operateur <<
-	void afficherTransfert() const;
-
+	//void afficherTransfert() const;
+	friend ostream& operator<<(ostream& sortie, const Transfert transfert);
 private:
 	double montant_;
 	Utilisateur* expediteur_;

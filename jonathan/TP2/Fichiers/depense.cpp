@@ -7,10 +7,16 @@
 #include "depense.h"
 
 // Constucteurs
-Depense::Depense() : nom_(""), montant_(0) {
+Depense::Depense() : nom_(""), montant_(0),  lieu_(nullptr)
+{
 }
 
-Depense::Depense(const string& nom, double montant) : nom_(nom), montant_(montant) {
+Depense::Depense(const string& nom, double montant, const string& lieu) : nom_(nom), montant_(montant), lieu_(new string(lieu)) 
+{
+}
+
+Depense::Depense(const Depense& depense) : nom_(depense.nom_), montant_(depense.montant_), lieu_(new string(*depense.lieu_))
+{
 }
 
 // Methodes d'acces
@@ -18,8 +24,14 @@ string Depense::getNom() const {
 	return nom_;
 }
 
-double Depense::getMontant() const {
+double Depense::getMontant() const 
+{
 	return montant_;
+}
+
+string Depense::getLieu() const
+{
+	return *lieu_;
 }
 
 // Methodes de modifications
@@ -31,7 +43,33 @@ void Depense::setMontant(double montant) {
 	montant_ = montant;
 }
 
+void Depense::setLieu(const string& lieu)
+{
+	if (this->lieu_ != &lieu)
+	{
+		delete lieu_;
+	}
+	
+	lieu_ = new string(lieu);
+}
+
+Depense& Depense::operator=(const Depense& depense)
+{
+	if (this != &depense)
+	{
+		delete lieu_;
+	}
+
+	nom_ = depense.getNom();
+	montant_ = depense.getMontant();
+	lieu_ = new string(*depense.lieu_);
+
+	return *this;
+
+}
+
 // Methode d'affichage
-void Depense::afficherDepense() const {
-	cout << "Achat : " << nom_ << " Prix : " << montant_ << "; " << endl;
+ostream& operator<<(ostream& sortie, const Depense& depense)
+{
+	return sortie << "Achat : " << depense.nom_ << " Prix : " << depense.montant_ << " Lieu : " << (*depense.lieu_) << ";" << endl;
 }

@@ -16,14 +16,14 @@ class Groupe {
 public:
 	// Constructeurs
 	Groupe();
-	Groupe(const string& nom, unsigned int tailleTabDepenses, unsigned int tailleTabUtilisateurs);
+	Groupe(const string& nom);
 
 	// Destructeur
 	~Groupe();
 
 	// Methodes d'acces
 	string getNom() const;
-	unsigned int getNombreDepenses() const;
+	size_t getNombreDepenses() const;
 	double getTotalDepenses() const;
 
 	// Methodes de modification
@@ -31,8 +31,9 @@ public:
 
 	// Methodes d'ajout
 	// TODO: Modifier pour utiliser la surcharge d'operateur
-	void ajouterDepense(Depense* depense, Utilisateur* utilisateur);
-	void ajouterUtilisateur(Utilisateur* utilisateur);
+	Groupe& ajouterDepense(Depense* depense, Utilisateur* utilisateur);
+	Groupe& operator+=(Utilisateur* unUtilisateur);
+	//void ajouterUtilisateur(Utilisateur* utilisateur);
 
 	// Methodes de calcul
 	void calculerComptes();
@@ -40,19 +41,24 @@ public:
 
 	// TODO: Remplacer par une surcharge de l'operateur <<
 	void afficherGroupe() const;
+	friend ostream& operator<<(ostream& sortie, const Groupe& groupe);
 
 private:
 	string nom_;
 	// Remplacer les doubles pointeurs par des vecteurs
-	Utilisateur** utilisateurs_;
-	unsigned int nombreUtilisateurs_;
-	unsigned int tailleTabUtilisateurs_;
-	Depense** depenses_;
-	unsigned int nombreDepenses_;
-	unsigned int tailleTabDepenses_;
-	Transfert** transferts_;
-	unsigned int nombreTransferts_;
-	double* comptes_;
+	//Utilisateur** utilisateurs_;
+	vector< Utilisateur* > utilisateurs_;
+	//unsigned int nombreUtilisateurs_;
+	//unsigned int tailleTabUtilisateurs_;
+	//Depense** depenses_;
+	vector< Depense* > depenses_;
+	//unsigned int nombreDepenses_;
+	//unsigned int tailleTabDepenses_;
+	//Transfert** transferts_;
+	vector< Transfert* > transferts_;
+	//unsigned int nombreTransferts_;
+	//double* comptes_;
+	vector< double > comptes_;
 
 };
 
