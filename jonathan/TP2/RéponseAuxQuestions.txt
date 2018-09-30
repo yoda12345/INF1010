@@ -1,17 +1,22 @@
 1. Quelle est l’utilité de l’opérateur = et du constructeur par copie ?
 
-L'opérateur = permet de copier les attributs d'un autre objet de la même classe.
-Le constructeur de copie permet de créer un objet em copiant les attributs d'un autre objet.
 
-L'opérateur = par défaut ainsi que le constructeur par copie par défaut ne font que copié la valeur
-des attributs ce qui peut être problématique lorsqu"ils sont des pointeurs, 
-vu que ces attributs pointeront vers le même endroits. (shallow copy)
+L'opérateur = permet de copier les attributs d'un objet sur un autre objet déjà existant de la même classe.
 
-Pour éviter ce problème l'on doit créer un constructeur par copie et un opérateur= 
-qui vont créer un objet du même type que celui pointé et qui contient le même contenu.
-(deep copy)
+Le constructeur par copie permet de créer un objet en copiant les attributs d'un autre objet déjà existant
+issue de la même classe. Par défaut, l'opérateur = ainsi que le constructeur par copie ne font que copier 
+la valeur des attributs ce qui peut être problématique lorsqu'il est question de pointeurs vers des objets. 
+En effet, ces attributs pointeront vers le même endroits (shallow copy)
+. 
+Pour éviter ce problème, on doit alors 
+définir un constructeur par copie et un opérateur= 
+qui, au lieu de copier le pointeur, vont copier le contenu 
+pointer par le pointeur dans un nouvel objet ou dans un objet déjà existant (pour le cas échéant).
 
 2. Qu’est-ce qui différencie l’opérateur = du constructeur par copie ?
 
-Le constructeur par copie va créer un nouvel objet a partir d'un autre objet de la même classe.
-L'opérateur= va changer la valeurs des attributs d'un objet déja existant en copiant les valeurs d'un autre objet.
+
+Le constructeur par copie va créer un nouvel objet à partir d'un autre objet de la même classe.
+
+L'opérateur= va changer la valeurs des attributs d'un objet déja existant en copiant les valeurs 
+d'un autre objet provenant de la même classe.
