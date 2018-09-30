@@ -1,25 +1,31 @@
-/********************************************
-* Titre: Travail pratique #2 - groupe.cpp
-* Date: 16 septembre 2018
-* Auteur: Wassim Khene
-*******************************************/
+/******************************************************************************
+groupe.cpp
+Créé par: Jonathan Laroche (1924839) et Hakim Payman (1938609)
+Date de création: 29 septembre 2018
+Date de modification: 30 septembre 2018
+Description fichier:
+Fichier source de la classe Groupe
+
+******************************************************************************/
 
 #include "groupe.h"
 
 // Constructeurs
-Groupe::Groupe() :
-	nom_("")
+Groupe::Groupe() 
+	: nom_("")
 {
 }
 
-Groupe::Groupe(const string& nom) :
-	nom_(nom)
+Groupe::Groupe(const string& nom) 
+	: nom_(nom)
 {
 }
 
 
-Groupe::~Groupe() {
-	for (int i = 0; i < transferts_.size(); i++) {
+Groupe::~Groupe() 
+{
+	for (int i = 0; i < transferts_.size(); i++) 
+	{
 		delete transferts_[i];
 		transferts_[i] = nullptr;
 	}
@@ -27,29 +33,35 @@ Groupe::~Groupe() {
 
 
 // Methodes d'acces
-string Groupe::getNom() const {
+string Groupe::getNom() const 
+{
 	return nom_;
 }
 
-size_t Groupe::getNombreDepenses() const {
+size_t Groupe::getNombreDepenses() const 
+{
 	return depenses_.size();
 }
 
-double Groupe::getTotalDepenses() const {
+double Groupe::getTotalDepenses() const 
+{
 	double total = 0;
-	for (int i = 0; i < depenses_.size(); i++) {
+	for (int i = 0; i < depenses_.size(); i++) 
+	{
 		total += depenses_[i]->getMontant();
 	}
 	return total;
 }
 
 // Methodes de modifications
-void Groupe::setNom(const string& nom) {
+void Groupe::setNom(const string& nom) 
+{
 	nom_ = nom;
 }
 
 // Methodes d'ajout
-Groupe& Groupe::ajouterDepense(Depense* depense, Utilisateur* utilisateur) {
+Groupe& Groupe::ajouterDepense(Depense* depense, Utilisateur* utilisateur) 
+{
 
 	depenses_.push_back(depense);
 	(*utilisateur) += depense;
@@ -57,13 +69,14 @@ Groupe& Groupe::ajouterDepense(Depense* depense, Utilisateur* utilisateur) {
 
 }
 
-//void Groupe::ajouterUtilisateur(Utilisateur* unUtilisateur) {
 Groupe& Groupe::operator+=(Utilisateur* unUtilisateur)
 {
 	utilisateurs_.push_back(unUtilisateur);
 	return *this;
 }
 
+
+//Méthodes de calcul
 void Groupe::calculerComptes()
 {
 	double moyenne = getTotalDepenses() / utilisateurs_.size();
@@ -72,7 +85,8 @@ void Groupe::calculerComptes()
 	}
 }
 
-void Groupe::equilibrerComptes() {
+void Groupe::equilibrerComptes() 
+{
 	calculerComptes();
 	bool calcul = true;
 	int count = 0;
@@ -83,7 +97,8 @@ void Groupe::equilibrerComptes() {
 		int indexMin = 0;
 
 		// On cherche le compte le plus eleve et le moins eleve
-		for (int i = 0; i < utilisateurs_.size(); i++) {
+		for (int i = 0; i < utilisateurs_.size(); i++) 
+		{
 			if (comptes_[i] > max) {
 				max = comptes_[i];
 				indexMax = i;
@@ -96,22 +111,29 @@ void Groupe::equilibrerComptes() {
 
 		// On cherche lequel des deux a la dette la plus grande
 		if (-min <= max) {
-			transferts_.push_back(new Transfert(-min, utilisateurs_[indexMin], utilisateurs_[indexMax]));
+			transferts_.push_back(new Transfert(-min, 
+												utilisateurs_[indexMin], 
+												utilisateurs_[indexMax]));
+
 			comptes_[indexMax] += min;
 			comptes_[indexMin] = 0.0;
 		}
 		else {
-			transferts_.push_back(new Transfert(max, utilisateurs_[indexMin], utilisateurs_[indexMax]));
+			transferts_.push_back(new Transfert(max,
+												utilisateurs_[indexMin],
+												utilisateurs_[indexMax]));
 			comptes_[indexMax] = 0.0;
 			comptes_[indexMin] += max;
 		}
 
 		// On incremente le nombre de comptes mis a 0
 		count++;
-		if (-min == max) {
+		if (-min == max) 
+		{
 			count++;
 		}
-		if (count >= utilisateurs_.size() - 1) {
+		if (count >= utilisateurs_.size() - 1) 
+		{
 			calcul = false;
 		}
 	}
@@ -119,39 +141,25 @@ void Groupe::equilibrerComptes() {
 
 
 // Methode d'affichage
-//void Groupe::afficherGroupe() const {
-//	cout << "L'evenement " << nom_ << " a coute un total de " << getTotalDepenses() << " :  \n\n";
-//	for (int i = 0; i < nombreUtilisateurs_; i++) {
-//		utilisateurs_[i]->afficherUtilisateur();
-//	}
-//	cout << endl;
-//
-//	if (nombreTransferts_ != 0) {
-//		cout << "Les transferts suivants ont ete realiser pour equilibrer  : " << endl;
-//		for (int i = 0; i < nombreTransferts_; i++) {
-//			cout << "\t";
-//			transferts_[i]->afficherTransfert();
-//		}
-//	}
-//	else {
-//		cout << "Les comptes ne sont pas equilibres" << endl << endl;
-//	}
-//	cout << endl;
-//}
-
-ostream & operator<<(ostream & sortie, const Groupe& groupe)
+ostream& operator<<(ostream& sortie, const Groupe& groupe)
 {
-	sortie << "L'evenement " << groupe.nom_ << " a coute un total de " << groupe.getTotalDepenses() << " :  \n\n";
-	for (int i = 0; i < groupe.utilisateurs_.size(); i++) {
+	sortie << "L'evenement " << groupe.nom_ << " a coute un total de " 
+		   << groupe.getTotalDepenses() << " :  \n\n";
+
+	for (int i = 0; i < groupe.utilisateurs_.size(); i++) 
+	{
 		sortie << *(groupe.utilisateurs_[i]);
 	}
 	sortie << endl;
 
-	if (groupe.transferts_.size() != 0) {
-		sortie << "Les transferts suivants ont ete realiser pour equilibrer  : " << endl;
-		for (int i = 0; i < groupe.transferts_.size(); i++) {
-			sortie << "\t";
-			sortie << *(groupe.transferts_[i]);
+	if (groupe.transferts_.size() != 0) 
+	{
+		sortie << "Les transferts suivants ont"
+			   << " ete realiser pour equilibrer  : " << endl;
+
+		for (int i = 0; i < groupe.transferts_.size(); i++) 
+		{
+			sortie << "\t" << *(groupe.transferts_[i]);
 		}
 	}
 	else {

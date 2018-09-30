@@ -1,8 +1,12 @@
-/********************************************
-* Titre: Travail pratique #2 - utilisateur.h
-* Date: 16 septembre 2018
-* Auteur: Wassim Khene
-*******************************************/
+/******************************************************************************
+utilisateur.h
+Créé par: Jonathan Laroche (1924839) et Hakim Payman (1938609)
+Date de création: 29 septembre 2018
+Date de modification: 30 septembre 2018
+Description fichier:
+Fichier d'entête de la classe Utilisateur
+
+******************************************************************************/
 
 #ifndef UTILISATEUR_H
 #define UTILISATEUR_H
@@ -19,36 +23,27 @@ public:
 	// Constructeurs
 	Utilisateur();
 	Utilisateur(const string& nom);
-	// TODO: Ajouter un constructeur par copie
 	Utilisateur(const Utilisateur& utilisateur);
-
-	// Destructeur
-	~Utilisateur();
 
 	// Methodes d'accès
 	string getNom() const;
-	unsigned int getNombreDepense() const;
+	size_t getNombreDepense() const;
 	double getTotalDepenses() const;
-	Depense getDepense(unsigned noDepense) const;
+	Depense getDepense(const unsigned& noDepense) const;
 
 	// Methodes de modification
 	void setNom(const string& nom);
+	Utilisateur& operator=(const Utilisateur& utilisateur);
 
-	// TODO: Ajouter un operateur += et =
-	//void ajouterDepense(Depense* uneDepense);
+	// Methodes d'ajout
 	Utilisateur& operator+=(Depense* depense);
-	Utilisateur& operator=(Utilisateur& utilisateur);
 
-	// TODO: Remplacer par une surcharge de l'operateur <<
-	//void afficherUtilisateur() const;
-	friend ostream& operator<<(ostream& sortie, const Utilisateur& utilisateur);
+	//Méthode d'affichage
+	friend ostream& operator<<(ostream& sortie, 
+							   const Utilisateur& utilisateur);
 
 private:
 	string nom_;
-	// TODO: Remplacer depenses_ par un vecteur
-	//unsigned int tailleTabDepense_;
-	//unsigned int nombreDepenses_;
-	//Depense ** depenses_;
 	vector< Depense* > depenses_;
 
 };

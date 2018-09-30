@@ -1,8 +1,12 @@
-/********************************************
-* Titre: Travail pratique #2 - depense.cpp
-* Date: 16 septembre 2018
-* Auteur: Wassim Khene
-*******************************************/
+/******************************************************************************
+depense.cpp
+Créé par: Jonathan Laroche (1924839) et Hakim Payman (1938609)
+Date de création: 29 septembre 2018
+Date de modification: 30 septembre 2018
+Description fichier:
+Fichier source de la classe Depense
+
+******************************************************************************/
 
 #include "depense.h"
 
@@ -11,16 +15,23 @@ Depense::Depense() : nom_(""), montant_(0),  lieu_(nullptr)
 {
 }
 
-Depense::Depense(const string& nom, double montant, const string& lieu) : nom_(nom), montant_(montant), lieu_(new string(lieu)) 
+Depense::Depense(const string& nom, double montant, const string& lieu) 
+	: nom_(nom),
+	  montant_(montant),
+	  lieu_(new string(lieu)) 
 {
 }
 
-Depense::Depense(const Depense& depense) : nom_(depense.nom_), montant_(depense.montant_), lieu_(new string(*depense.lieu_))
+Depense::Depense(const Depense& depense)
+	: nom_(depense.nom_),
+	  montant_(depense.montant_),
+	  lieu_(new string(*depense.lieu_))
 {
 }
 
 // Methodes d'acces
-string Depense::getNom() const {
+string Depense::getNom() const 
+{
 	return nom_;
 }
 
@@ -71,5 +82,7 @@ Depense& Depense::operator=(const Depense& depense)
 // Methode d'affichage
 ostream& operator<<(ostream& sortie, const Depense& depense)
 {
-	return sortie << "Achat : " << depense.nom_ << " Prix : " << depense.montant_ << " Lieu : " << (*depense.lieu_) << ";" << endl;
+	return sortie << "Achat : " << depense.nom_ << " Prix : " 
+			      << depense.montant_ << " Lieu : " << (*depense.lieu_) 
+				  << ";" << endl;
 }
