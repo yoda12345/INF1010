@@ -1,0 +1,24 @@
+1. Pourquoi est-il logique de dériver une classe UtilisateurPremium et une classe
+UtilisateurRegulier d’une classe Utilisateur?
+
+Vu qu'il est possible de d'utiliser la relation << est un >> dans les deux cas:
+Un UtilisateurRegulier est un Utilisateur.
+Un UtilisateurPremium est un Utilisateur.
+
+De plus, dans notre cas UtilisateurPremium et UtilisateurRegulier ont tout les deux
+des attributs communs et ainsi que que des méthodes communes.
+
+2. Dans la surcharge de l’opérateur << dans la classe Groupe.
+	1. Quelle est l’importance de l’utilisation d’un static_cast ?
+
+L'ensemble des UtilisateurPremium* et UtilisateurRegulier* sont entrés dans le vecteur 
+comme etant des Utilisateurs*.
+
+L'on doit donc utiliser le static_cast afin de pouvoir utiliser les methodes des classes 
+dérivés d'utilisateurs et ainsi utilisé la surcharge de l'opérateur<< adéquate selon la 
+valeur de l'attribut type_ de l'utilisateur devant être affiché.
+
+	2. Quel effet aura-t-on si on ne le considère pas dans l’implémentation ?
+
+Il serait impossible d'utiliser les méthodes des classes UtilisateurPremium et UtilisateurRegulier.
+Seulement les méthodes de la classe Utilisateur seraient utilisables.
