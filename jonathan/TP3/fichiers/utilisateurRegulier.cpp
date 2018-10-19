@@ -35,8 +35,11 @@ void UtilisateurRegulier::setEtatGroupe(bool etat)
 
 UtilisateurRegulier& UtilisateurRegulier::operator=(Utilisateur* utilisateur)
 {
-	*static_cast< Utilisateur* >(this) = utilisateur;
-	estGroupe_ = static_cast< UtilisateurRegulier* >(utilisateur)->estGroupe_;
+	if (this != utilisateur)
+	{
+		*static_cast<Utilisateur*>(this) = utilisateur;
+		estGroupe_ = static_cast<UtilisateurRegulier*>(utilisateur)->estGroupe_;
+	}
 	return *this;
 }
 

@@ -108,7 +108,8 @@ Groupe& Groupe::ajouterDepense(Depense* depense, Utilisateur* payePar, vector<Ut
 	if ((depense->getType() == groupe) && (sontPresents == true))
 	{
 		// Modification du nombre de participant de la depense
-		static_cast<DepenseGroupe*>(depense)->setNombreParticipants(payePour.size() + 1);
+		static_cast<DepenseGroupe*>(depense)
+			->setNombreParticipants(unsigned int(payePour.size() + 1));
 
 		// Ajout de la depense a la liste de depense du groupe
 		depenses_.push_back(static_cast< DepenseGroupe* >(depense));
@@ -146,7 +147,7 @@ Groupe& Groupe::ajouterDepense(Depense* depense, Utilisateur* payePar, vector<Ut
 	}
 	else
 	{
-		cout << "\nErreur	:	Vous tentez d<ajouter une depense individuelle au groupe " 
+		cout << "\nErreur	:	Vous tentez d'ajouter une depense individuelle au groupe " 
 			 << "ou alors les personnes impliquees dans la depense groupe ne sont pas dans le groupe";
 	}
 	

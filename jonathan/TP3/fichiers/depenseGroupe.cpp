@@ -46,9 +46,12 @@ void DepenseGroupe::setNombreParticipants(unsigned int nombre)
 DepenseGroupe& DepenseGroupe::operator=(const DepenseGroupe& depense)
 {
 	// On utilise l'operateur= de la classe Depense
-	static_cast<Depense>(*this) = static_cast<Depense>(depense);
+	if (this != &depense)
+	{
+		static_cast<Depense>(*this) = static_cast<Depense>(depense);
+		nombreParticipants_ = depense.nombreParticipants_;
+	}
 
-	nombreParticipants_ = depense.nombreParticipants_;
 	return *this;
 }
 

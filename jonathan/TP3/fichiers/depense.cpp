@@ -78,10 +78,14 @@ void Depense::setType(TypeDepense type)
 
 Depense& Depense::operator=(const Depense& depense)
 {
-	nom_ = depense.nom_;
-	montant_ = depense.montant_;
-	lieu_ = new string(*(depense.lieu_));
-	type_ = depense.type_;
+	if (this != &depense)
+	{
+		nom_ = depense.nom_;
+		montant_ = depense.montant_;
+		delete lieu_;
+		lieu_ = new string(*(depense.lieu_));
+		type_ = depense.type_;
+	}
 
 	return *this;
 }

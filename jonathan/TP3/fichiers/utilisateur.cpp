@@ -63,11 +63,14 @@ void Utilisateur::setNom(const string& nom)
 
 Utilisateur& Utilisateur::operator=(Utilisateur* utilisateur)
 {
-	nom_ = utilisateur->nom_;
-	depenses_ = utilisateur->depenses_;
-	interet_ = utilisateur->interet_;
-	type_ = utilisateur->type_;
-	totalDepense_ = utilisateur->totalDepense_;
+	if (this != utilisateur)
+	{
+		nom_ = utilisateur->nom_;
+		depenses_ = utilisateur->depenses_;
+		interet_ = utilisateur->interet_;
+		type_ = utilisateur->type_;
+		totalDepense_ = utilisateur->totalDepense_;
+	}
 
 	return *this;
 }

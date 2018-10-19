@@ -41,9 +41,12 @@ void UtilisateurPremium::setJoursRestants(unsigned int joursRestants)
 
 UtilisateurPremium& UtilisateurPremium::operator=(Utilisateur* utilisateur)
 {
-	*static_cast<Utilisateur*>(this) = utilisateur;
-	taux_ = static_cast< UtilisateurPremium* >(utilisateur)->taux_;
-	joursRestants_ = static_cast< UtilisateurPremium* >(utilisateur)->joursRestants_;
+	if (this != utilisateur)
+	{
+		*static_cast<Utilisateur*>(this) = utilisateur;
+		taux_ = static_cast<UtilisateurPremium*>(utilisateur)->taux_;
+		joursRestants_ = static_cast<UtilisateurPremium*>(utilisateur)->joursRestants_;
+	}
 	return *this;
 }
 
