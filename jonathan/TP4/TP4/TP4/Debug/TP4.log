@@ -1,0 +1,8 @@
+﻿  groupe.cpp
+c:\users\utilisateur\onedrive\documents\aut.2018\inf1010\gitteam\jonathan\tp4\tp4\groupe.cpp(45): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\utilisateur\onedrive\documents\aut.2018\inf1010\gitteam\jonathan\tp4\tp4\groupe.cpp(159): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\utilisateur\onedrive\documents\aut.2018\inf1010\gitteam\jonathan\tp4\tp4\groupe.cpp(220): warning C4018: '>=' : incompatibilité signed/unsigned
+c:\users\utilisateur\onedrive\documents\aut.2018\inf1010\gitteam\jonathan\tp4\tp4\groupe.cpp(231): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\utilisateur\onedrive\documents\aut.2018\inf1010\gitteam\jonathan\tp4\tp4\groupe.cpp(238): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\utilisateur\onedrive\documents\aut.2018\inf1010\gitteam\jonathan\tp4\tp4\groupe.cpp(243): warning C4018: '<' : incompatibilité signed/unsigned
+  TP4.vcxproj -> C:\Users\Utilisateur\OneDrive\Documents\Aut.2018\INF1010\gitTeam\jonathan\TP4\TP4\Debug\TP4.exe
