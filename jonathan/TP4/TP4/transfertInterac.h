@@ -1,7 +1,7 @@
 /********************************************
 * Titre: Travail pratique #4 - tranfertInterac.h
-* Date: 19 octobre 2018
-* Auteur: Wassim Khene & Ryan Hardie
+* Date: 4 novembre 2018
+* Auteur: Jonathan Laroche (1924839) & Hakim Payman (1938609)
 *******************************************/
 #pragma once
 
@@ -13,14 +13,17 @@ const double FRAIS_TRANSFERT = 1.0;
 class TransfertInterac : public Transfert {
 public:
 	// Constructeur
-	// TODO: a modifier
-	TransfertInterac(double montant, Utilisateur* expediteur, Utilisateur* receveur);
+	TransfertInterac(double montant,
+					 Utilisateur* expediteur,
+					 Utilisateur* receveur);
 
+	// Methodes d'acces
 	string getCourriel() const;
-	void setcourriel(string courriel);
-
-	// TODO
 	virtual double getFraisTransfert() const;
+
+	// Methodes de modifications
+	void setcourriel(string courriel);
+	
 private:
 	string courriel_;
 };

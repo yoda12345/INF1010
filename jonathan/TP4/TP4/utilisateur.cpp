@@ -1,7 +1,7 @@
 /********************************************
 * Titre: Travail pratique #4 - utilisateur.cpp
-* Date: 19 octobre 2018
-* Auteur: Wassim Khene & Ryan Hardie
+* Date: 4 novembre 2018
+* Auteur: Jonathan Laroche (1924839) & Hakim Payman (1938609)
 *******************************************/
 
 #include "utilisateur.h"
@@ -98,9 +98,9 @@ Utilisateur& Utilisateur::operator+=(Depense* depense)
 // Methode d'affichage
 void Utilisateur::print(ostream& os) const
 {
-	os << "Depenses:\n";
+	os << "\t\tDepenses:\n";
 	for (size_t i = 0; i < depenses_.size(); i++)
-		os << "\t" << depenses_[i];
+		os << "\t\t\t" << *depenses_[i];
 
 }
 

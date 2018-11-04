@@ -1,7 +1,7 @@
 /********************************************
 * Titre: Travail pratique #4 - utilisateurPremium.cpp
-* Date: 19 octobre 2018
-* Auteur: Wassim Khene & Ryan Hardie
+* Date: 4 novembre 2018
+* Auteur: Jonathan Laroche (1924839) & Hakim Payman (1938609)
 *******************************************/
 
 #include "utilisateurPremium.h"
@@ -27,7 +27,8 @@ void UtilisateurPremium::setJoursRestants(unsigned int joursRestants) {
 void UtilisateurPremium::print(ostream & os) const
 {
 	os << "- Utilisateur (Premium) " << nom_ << " :\n"
-	   << "\tTotal a payer: " << Utilisateur::getTotalATransferer()
-	   << "$ (" << Utilisateur::getBalance() << "$ economises)\n";
+	   << "\t\tTotal a payer: " << Utilisateur::getTotalATransferer()
+	   << "$ (" << abs(Utilisateur::getBalance()) << "$ economises)\n"
+	   << "\t\tJours restants: " << joursRestants_ << endl;
 	Utilisateur::print(os);
 }

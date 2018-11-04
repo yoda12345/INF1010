@@ -1,7 +1,7 @@
 /********************************************
 * Titre: Travail pratique #4 - utilisateurRegulier.cpp
-* Date: 19 octobre 2018
-* Auteur: Wassim Khene & Ryan Hardie
+* Date: 4 novembre 2018
+* Auteur: Jonathan Laroche (1924839) & Hakim Payman (1938609)
 *******************************************/
 
 #include "utilisateurRegulier.h"
@@ -32,8 +32,8 @@ void UtilisateurRegulier::setPossedeGroupe(bool possedeGroupe)
 //Affichage
 void UtilisateurRegulier::print(ostream & os) const
 {
-	os << "- Utilisateur (Regulier) " << nom_ << " :\n"
-		<< "\tTotal a payer: " << Utilisateur::getTotalATransferer()
+	os << "\n\t - Utilisateur (Regulier) " << nom_ << " :\n"
+		<< "\t\tTotal a payer: " << Utilisateur::getTotalATransferer()
 		<< "$ (" << Utilisateur::getBalance() << "$ de frais)\n";
 	Utilisateur::print(os);
 }

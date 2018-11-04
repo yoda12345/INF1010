@@ -1,22 +1,49 @@
 /********************************************
 * Titre: Travail pratique #4 - groupe.cpp
-* Date: 19 octobre 2018
-* Auteur: Wassim Khene & Ryan Hardie
+* Date: 4 novembre 2018
+* Auteur: Jonathan Laroche (1924839) & Hakim Payman (1938609)
 *******************************************/
 
 #include "groupe.h"
 
 // Constructeurs
-
-Groupe::Groupe() {
+Groupe::Groupe() 
+{
 	nom_ = "";
 }
 
-Groupe::Groupe(const string& nom) : nom_(nom) {
+Groupe::Groupe(const string& nom) : nom_(nom) 
+{
+}
+
+Groupe::Groupe(const Groupe& groupe) : 
+	nom_(groupe.nom_),
+	utilisateurs_(groupe.utilisateurs_),
+	comptes_(groupe.comptes_)
+{
+	// Les depenses et les transferts sont composites
+	// Il faut donc eviter de faire un shallow copy
+	for (size_t i = 0; i < groupe.depenses_.size(); i++)
+		depenses_.push_back(new Depense(*groupe.depenses_[i]));
+
+	for (size_t i = 0; i < groupe.transferts_.size(); i++)
+	{
+		if (typeid(*groupe.depenses_[i]) == typeid(TransfertInterac))
+		{
+			transferts_.push_back(new TransfertInterac(
+				*(dynamic_cast<TransfertInterac*>(groupe.transferts_[i]))));
+		}
+		else
+		{
+			transferts_.push_back(new TransfertPaypal(
+				*(dynamic_cast<TransfertPaypal*>(groupe.transferts_[i]))));
+		}
+	}
 }
 
 // Methodes d'acces
-string Groupe::getNom() const {
+string Groupe::getNom() const 
+{
 	return nom_;
 }
 
@@ -40,7 +67,8 @@ vector<double> Groupe::getComptes() const
 	return comptes_;
 }
 
-double Groupe::getTotalDepenses() const {
+double Groupe::getTotalDepenses() const 
+{
 	double totalDepenses = 0;
 	for (int i = 0; i < depenses_.size(); i++) {
 		totalDepenses += depenses_[i]->getMontant();
@@ -49,8 +77,54 @@ double Groupe::getTotalDepenses() const {
 }
 
 // Methodes de modifications
-void Groupe::setNom(const string& nom) {
+void Groupe::setNom(const string& nom) 
+{
 	nom_ = nom;
+}
+
+Groupe& Groupe::operator=(const Groupe& groupe)
+{
+	if (this != &groupe)
+	{
+		nom_ = groupe.nom_;
+		utilisateurs_ = groupe.utilisateurs_;
+		comptes_ = groupe.comptes_;
+
+		// Destruction des anciennes depenses
+		for (size_t i = 0; i < depenses_.size(); i++)
+		{
+			delete depenses_.back();
+			depenses_.pop_back();
+		}
+
+		// Ajout des depenses copies
+		for (size_t i = 0; i < groupe.depenses_.size(); i++)
+			depenses_.push_back(new Depense(*groupe.depenses_[i]));
+
+		// Destruction des anciens transferts
+		for (size_t i = 0; i < transferts_.size(); i++)
+		{
+			delete transferts_.back();
+			transferts_.pop_back();
+		}
+
+		// Ajout des transferts copies
+		for (size_t i = 0; i < groupe.transferts_.size(); i++)
+		{
+			if (typeid(*groupe.depenses_[i]) == typeid(TransfertInterac))
+			{
+				transferts_.push_back(new TransfertInterac(
+					*(dynamic_cast<TransfertInterac*>(groupe.transferts_[i]))));
+			}
+			else
+			{
+				transferts_.push_back(new TransfertPaypal(
+					*(dynamic_cast<TransfertPaypal*>(groupe.transferts_[i]))));
+			}
+		}
+	}
+
+	return *this;
 }
 
 // Methode d'ajout
@@ -67,23 +141,19 @@ Groupe& Groupe::ajouterDepense(double montant, Utilisateur* payePar, const strin
 		i++;
 	}
 
+	// Ajout de la depense si present, sinon un message d'erreur
 	if (estPresent == true)
 	{
 		depenses_.push_back(new Depense(nom, montant, lieu));
+		*payePar += depenses_.back();
 		double montantIndividuel = montant / utilisateurs_.size();
 
 		for (size_t i = 0; i < utilisateurs_.size(); i++)
 		{
 			if (payePar != utilisateurs_[i])
-			{
-				//utilisateurs_[i]->modifierBalanceTranferts(montantIndividuel);
 				comptes_[i] -= montantIndividuel;
-			}
 			else
-			{
-				//payePar->modifierBalanceTranferts(-(montant - montantIndividuel));
 				comptes_[i] += (montant - montantIndividuel);
-			}
 		}
 	}
 	else
@@ -99,6 +169,9 @@ Groupe& Groupe::operator+=(Utilisateur* utilisateur)
 {
 	bool doitRenouveler = false;
 	bool estAjouter = true;
+
+	// Si le type est Regulier, il faut verifier s'il est dans un groupe
+	// Si le type est Premium, il faut verifier l'etat de son abonnement
 	if (typeid(*utilisateur) == typeid(UtilisateurRegulier))
 	{
 		bool estGroupe = 
@@ -124,6 +197,7 @@ Groupe& Groupe::operator+=(Utilisateur* utilisateur)
 		}
 	}
 
+	// Ajout de l'utilisateur ou bien affichage d'un message d'erreur
 	if (estAjouter == true)
 	{
 		utilisateurs_.push_back(utilisateur);
@@ -186,6 +260,7 @@ void Groupe::equilibrerComptes() {
 											utilisateurs_[indexMin],
 											utilisateurs_[indexMax]));
 			}
+			// Le transfert est effectue
 			transferts_[transferts_.size() - 1]->effectuerTransfert();
 			comptes_[indexMax] += min;
 			comptes_[indexMin] = 0;
@@ -207,6 +282,7 @@ void Groupe::equilibrerComptes() {
 											utilisateurs_[indexMin],
 											utilisateurs_[indexMax]));
 			}
+			// Le transfert est effectue
 			transferts_[transferts_.size() - 1]->effectuerTransfert();
 			comptes_[indexMax] = 0;
 			comptes_[indexMin] += max;
@@ -225,11 +301,11 @@ void Groupe::equilibrerComptes() {
 }
 
 // Methode d'affichage
-ostream & operator<<(ostream& os, const Groupe& groupe)
+ostream& operator<<(ostream& os, const Groupe& groupe)
 {
 	os << "\nGroupe " << groupe.nom_ << ".\nCout total: " << groupe.getTotalDepenses() << "$ \nUtilisateurs:    \n\n";
 	for (int i = 0; i < groupe.utilisateurs_.size(); i++) {
-		os <<"\t- " << *groupe.utilisateurs_[i];
+		os <<"\n\t " << *groupe.utilisateurs_[i];
 	}
 	os << endl;
 

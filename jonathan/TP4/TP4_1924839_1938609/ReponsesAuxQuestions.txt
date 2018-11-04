@@ -1,0 +1,52 @@
+Considérez le code suivant :
+class A {
+public:
+	void f() const { cout << 1; }
+};
+
+class B : public A {
+public:
+	virtual void f() const { cout << 2; }
+};
+
+class C : public B {
+public:
+	void f() const { cout << 3; }
+};
+
+int main()
+{
+	vector<A*> v;
+	B b;
+	v.push_back(&b);
+	v[0]->f();
+	return 0;
+}
+
+1. Quelle sera la sortie du code ci-dessus?
+
+Ce qui sera affiché:
+1
+
+2. Pourquoi?
+
+Parce que la méthode f n'est pas declaré virtual dans la classe A.
+Cette classe est celle de base, elle ne donc sera pas décalré
+virtual automatiquement même si la methode f de B est déclaré virtual.
+
+3. Si le vecteur v était de type vector<B*> et la variable b était de type C, proposez
+deux solutions pour que la sortie soit celle de la méthode B::f().
+
+Solution 1:
+Ne pas déclaré la methode f comme virtuel dans la classe B
+
+Solution 2:
+Appeler la méthode f en precisant vouloir celle de la classe B de cette façon:
+v[0]->B::f();
+
+
+4. Dans ce TP, pourquoi ne peut-on pas instancier un objet de type Transfert?
+
+Car cette classe est abstraite, 
+un transfert doit être obligatoirement par interac ou par paypal.
+Elle a été déclaré avec une méthode virtuel pure ce qui empêche la création d'une instance.

@@ -1,7 +1,7 @@
 /********************************************
 * Titre: Travail pratique #4 - utilisateur.h
-* Date: 19 octobre 2018
-* Auteur: Wassim Khene & Ryan Hardie
+* Date: 4 novembre 2018
+* Auteur: Jonathan Laroche (1924839) & Hakim Payman (1938609)
 *******************************************/
 
 #ifndef UTILISATEUR_H
@@ -22,7 +22,10 @@ class Utilisateur {
 public:
 	// Constructeurs
 	Utilisateur();
-	Utilisateur(const string& nom = "", MethodePaiement methodePaiement = Interac, const string& courriel = "", const string& idPaypal= "");
+	Utilisateur(const string& nom = "",
+				MethodePaiement methodePaiement = Interac, 
+				const string& courriel = "",
+				const string& idPaypal= "");
 	
 	// Methodes d'accès
 	string getNom() const;

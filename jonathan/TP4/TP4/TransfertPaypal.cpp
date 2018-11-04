@@ -1,24 +1,21 @@
 /********************************************
 * Titre: Travail pratique #4 - transfertPaypal.cpp
-* Date: 19 octobre 2018
-* Auteur: Wassim Khene & Ryan Hardie
+* Date: 4 novembre 2018
+* Auteur: Jonathan Laroche (1924839) & Hakim Payman (1938609)
 *******************************************/
 
 #include "transfertPaypal.h"
 
-TransfertPaypal::TransfertPaypal(double montant, Utilisateur * expediteur, Utilisateur * receveur)
+// Constructeur
+TransfertPaypal::TransfertPaypal(double montant, Utilisateur* expediteur, Utilisateur* receveur)
 	: Transfert(montant, expediteur, receveur), id_(expediteur->getIdPaypal())
 {
 }
 
+// Methode d'acces
 string TransfertPaypal::getId() const
 {
 	return id_;
-}
-
-void TransfertPaypal::setId(string id)
-{
-	id_ = id;
 }
 
 double TransfertPaypal::getFraisTransfert() const
@@ -27,6 +24,14 @@ double TransfertPaypal::getFraisTransfert() const
 		return 0.0;
 	else
 		return (COMMISSION * getMontant() + FRAIS);
-		
+
 }
+
+// Methode de modification
+void TransfertPaypal::setId(string id)
+{
+	id_ = id;
+}
+
+
 

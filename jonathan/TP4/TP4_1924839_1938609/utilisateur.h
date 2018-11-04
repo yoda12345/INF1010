@@ -1,0 +1,63 @@
+/********************************************
+* Titre: Travail pratique #4 - utilisateur.h
+* Date: 4 novembre 2018
+* Auteur: Jonathan Laroche (1924839) & Hakim Payman (1938609)
+*******************************************/
+
+#ifndef UTILISATEUR_H
+#define UTILISATEUR_H
+
+#include <string>
+#include <iostream>
+#include <vector>
+#include <iomanip>
+
+#include "depense.h"
+
+using namespace std;
+
+enum MethodePaiement { Paypal, Interac };
+
+class Utilisateur {
+public:
+	// Constructeurs
+	Utilisateur();
+	Utilisateur(const string& nom = "",
+				MethodePaiement methodePaiement = Interac, 
+				const string& courriel = "",
+				const string& idPaypal= "");
+	
+	// Methodes d'accès
+	string getNom() const;
+	vector<Depense*> getDepenses() const;
+	string getCourriel() const;
+	string getIdPaypal() const;
+	MethodePaiement getMethodePaiement() const;
+	double getTotalATransferer() const;
+	double getBalance() const;
+
+	// Methodes de modification
+	void setNom(const string& nom);
+	void setCourriel(const string& courriel);
+	void setIdPaypal(const string idPaypal);
+	void setMethodePaiement(MethodePaiement methodePaiement);
+
+	void modifierBalanceTranferts(double montant);
+	void modifierBalanceFrais(double montant);
+
+	Utilisateur& operator+=(Depense* depense);
+
+	// Methode d'affichage
+	virtual void print(ostream& os) const = 0;
+	friend ostream& operator<<(ostream& os, const Utilisateur& user);
+
+protected:
+	MethodePaiement methodePaiement_;
+	string nom_;
+	vector <Depense*> depenses_;
+	string courriel_;
+	string idPaypal_;
+	double balanceFrais_;
+	double balanceTransferts_;
+};
+#endif

@@ -1,7 +1,7 @@
 /********************************************
 * Titre: Travail pratique #4 - groupe.h
-* Date: 19 octobre 2018
-* Auteur: Wassim Khene & Ryan Hardie
+* Date: 4 novembre 2018
+* Auteur: Jonathan Laroche (1924839) & Hakim Payman (1938609)
 *******************************************/
 
 #ifndef GROUPE_H
@@ -23,6 +23,7 @@ public:
 	// Constructeurs
 	Groupe();
 	Groupe(const string& nom);
+	Groupe(const Groupe & groupe);
 
 	// Methodes d'acces
 	string getNom() const;
@@ -34,15 +35,17 @@ public:
 
 	// Methodes de modification
 	void setNom(const string& nom);
+	Groupe & operator=(const Groupe & groupe);
 
 	// Methodes d'ajout
-	// TODO
-	Groupe& ajouterDepense(double montant, Utilisateur* payePar, const string& nom = "", const string& lieu = "Montreal");
-	// TODO
+	Groupe& ajouterDepense(double montant,
+						   Utilisateur* payePar,
+						   const string& nom = "",
+						   const string& lieu = "Montreal");
+
 	Groupe& operator+=(Utilisateur* utilisateur);
 
 	// Methodes de calcul
-	// TODO
 	void equilibrerComptes();
 
 	// Methode d'affichage

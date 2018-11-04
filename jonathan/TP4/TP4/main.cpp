@@ -1,7 +1,7 @@
 /********************************************
 * Titre: Travail pratique #4 - main.cpp
-* Date: 19 octobre 2018
-* Auteur: Wassim Khene & Ryan Hardie
+* Date: 4 novembre 2018
+* Auteur: Jonathan Laroche (1924839) & Hakim Payman (1938609)
 *******************************************/
 
 #include <iostream>
@@ -228,7 +228,7 @@ int main() {
 		&& groupe1->getUtilisateurs()[5]->getBalance() == 2);
 
 	// Affichage des tests
-	cout << "TESTS" << endl;
+	cout << endl << "TESTS" << endl;
 	for (unsigned int i = 0; i < tests.size(); i++)
 	{
 		cout << "\tTest " << setfill('0') << setw(2) << i + 1 << "... ";

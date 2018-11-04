@@ -1,7 +1,7 @@
 /********************************************
 * Titre: Travail pratique #4 - transfertPaypal.h
-* Date: 19 octobre 2018
-* Auteur: Wassim Khene & Ryan Hardie
+* Date: 4 novembre 2018
+* Auteur: Jonathan Laroche (1924839) & Hakim Payman (1938609)
 *******************************************/
 
 #pragma once
@@ -16,15 +16,16 @@ const double FRAIS = 0.30;
 class TransfertPaypal : public Transfert {
 public:
 	// Constructeur
-	// TODO: a modifier
-	TransfertPaypal(double montant, Utilisateur* expediteur, Utilisateur* receveur);
+	TransfertPaypal(double montant, 
+					Utilisateur* expediteur,
+					Utilisateur* receveur);
 
+	// Methode d'acces
 	string getId() const;
-	void setId(string id);
-
-	// TODO
 	virtual double getFraisTransfert() const;
 
+	// Methode de modification
+	void setId(string id);
 private:
 	string id_;
 };

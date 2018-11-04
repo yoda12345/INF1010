@@ -1,7 +1,7 @@
 /********************************************
 * Titre: Travail pratique #4 - transfert.h
-* Date: 19 octobre 2018
-* Auteur: Wassim Khene & Ryan Hardie
+* Date: 4 novembre 2018
+* Auteur: Jonathan Laroche (1924839) & Hakim Payman (1938609)
 *******************************************/
 
 #ifndef TRANSFERT_H
@@ -24,8 +24,6 @@ public:
 	Utilisateur* getExpediteur() const;
 	Utilisateur* getReceveur() const;
 	double getMontant() const;
-	// TODO
-
 	virtual double getFraisTransfert() const = 0;
 
 	// Méthodes d'affichage
@@ -36,6 +34,7 @@ public:
 	// Methode de calculs
 	void effectuerTransfert();
 
+	// Methode d'affichage
 	friend ostream& operator<<(ostream& os, const Transfert& transfert);
 
 protected:
