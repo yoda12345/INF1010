@@ -1,0 +1,150 @@
+﻿  main.cpp
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(19): error C2953: 'GestionnaireGenerique' : modèle de classe déjà défini
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(9): note: voir la déclaration de 'GestionnaireGenerique'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(23): error C2244: 'GestionnaireGenerique::getConteneur' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(22): note: voir la déclaration de 'GestionnaireGenerique::getConteneur'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(23): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(23): note: 'C GestionnaireGenerique::getConteneur(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(23): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(23): note: 'C GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(29): error C2244: 'GestionnaireGenerique::ajouter' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(28): note: voir la déclaration de 'GestionnaireGenerique::ajouter'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(29): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(29): note: 'void GestionnaireGenerique::ajouter(T)'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(29): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(29): note: 'void GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter(T)'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(36): error C2244: 'GestionnaireGenerique::getNombreElements' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(35): note: voir la déclaration de 'GestionnaireGenerique::getNombreElements'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(36): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(36): note: 'auto GestionnaireGenerique::getNombreElements(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(36): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(36): note: 'auto GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnaireutilisateurs.h(24): error C2955: 'GestionnaireGenerique' : l'utilisation de classe modèle requiert une liste d'arguments modèle
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(9): note: voir la déclaration de 'GestionnaireGenerique'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(19): error C2953: 'GestionnaireGenerique' : modèle de classe déjà défini
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(9): note: voir la déclaration de 'GestionnaireGenerique'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(23): error C2244: 'GestionnaireGenerique::getConteneur' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(22): note: voir la déclaration de 'GestionnaireGenerique::getConteneur'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(23): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(23): note: 'C GestionnaireGenerique::getConteneur(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(23): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(23): note: 'C GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(29): error C2244: 'GestionnaireGenerique::ajouter' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(28): note: voir la déclaration de 'GestionnaireGenerique::ajouter'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(29): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(29): note: 'void GestionnaireGenerique::ajouter(T)'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(29): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(29): note: 'void GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter(T)'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(36): error C2244: 'GestionnaireGenerique::getNombreElements' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(35): note: voir la déclaration de 'GestionnaireGenerique::getNombreElements'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(36): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(36): note: 'auto GestionnaireGenerique::getNombreElements(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(36): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(36): note: 'auto GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\main.cpp(269): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\main.cpp(309): warning C4018: '<' : incompatibilité signed/unsigned
+  groupe.cpp
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(19): error C2953: 'GestionnaireGenerique' : modèle de classe déjà défini
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(9): note: voir la déclaration de 'GestionnaireGenerique'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(23): error C2244: 'GestionnaireGenerique::getConteneur' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(22): note: voir la déclaration de 'GestionnaireGenerique::getConteneur'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(23): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(23): note: 'C GestionnaireGenerique::getConteneur(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(23): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(23): note: 'C GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(29): error C2244: 'GestionnaireGenerique::ajouter' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(28): note: voir la déclaration de 'GestionnaireGenerique::ajouter'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(29): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(29): note: 'void GestionnaireGenerique::ajouter(T)'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(29): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(29): note: 'void GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter(T)'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(36): error C2244: 'GestionnaireGenerique::getNombreElements' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(35): note: voir la déclaration de 'GestionnaireGenerique::getNombreElements'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(36): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(36): note: 'auto GestionnaireGenerique::getNombreElements(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(36): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(36): note: 'auto GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnaireutilisateurs.h(24): error C2955: 'GestionnaireGenerique' : l'utilisation de classe modèle requiert une liste d'arguments modèle
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(9): note: voir la déclaration de 'GestionnaireGenerique'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(19): error C2953: 'GestionnaireGenerique' : modèle de classe déjà défini
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(9): note: voir la déclaration de 'GestionnaireGenerique'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(23): error C2244: 'GestionnaireGenerique::getConteneur' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(22): note: voir la déclaration de 'GestionnaireGenerique::getConteneur'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(23): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(23): note: 'C GestionnaireGenerique::getConteneur(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(23): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(23): note: 'C GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(29): error C2244: 'GestionnaireGenerique::ajouter' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(28): note: voir la déclaration de 'GestionnaireGenerique::ajouter'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(29): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(29): note: 'void GestionnaireGenerique::ajouter(T)'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(29): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(29): note: 'void GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter(T)'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(36): error C2244: 'GestionnaireGenerique::getNombreElements' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(35): note: voir la déclaration de 'GestionnaireGenerique::getNombreElements'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(36): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(36): note: 'auto GestionnaireGenerique::getNombreElements(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(36): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnairegenerique.h(36): note: 'auto GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\groupe.cpp(23): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\groupe.cpp(26): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\groupe.cpp(108): error C2039: 'ajouter' : n'est pas membre de 'GestionnaireUtilisateurs'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnaireutilisateurs.h(19): note: voir la déclaration de 'GestionnaireUtilisateurs'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\groupe.cpp(178): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\groupe.cpp(183): warning C4018: '<' : incompatibilité signed/unsigned
+  gestionnaireUtilisateurs.cpp
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnaireutilisateurs.cpp(73): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnaireutilisateurs.cpp(85): warning C4018: '<' : incompatibilité signed/unsigned
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.12.25827\include\algorithm(1007): error C2679: '=' binaire : aucun opérateur trouvé qui accepte un opérande de partie droite de type 'std::pair<const _Kty,_Ty>' (ou il n'existe pas de conversion acceptable)
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.12.25827\include\xutility(4147): note: est peut-être 'std::back_insert_iterator<std::vector<double,std::allocator<_Ty>>> &std::back_insert_iterator<std::vector<_Ty,std::allocator<_Ty>>>::operator =(std::back_insert_iterator<std::vector<_Ty,std::allocator<_Ty>>> &&)'
+          with
+          [
+              _Ty=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.12.25827\include\xutility(4147): note: ou       'std::back_insert_iterator<std::vector<double,std::allocator<_Ty>>> &std::back_insert_iterator<std::vector<_Ty,std::allocator<_Ty>>>::operator =(const std::back_insert_iterator<std::vector<_Ty,std::allocator<_Ty>>> &)'
+          with
+          [
+              _Ty=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.12.25827\include\xutility(4124): note: ou       'std::back_insert_iterator<std::vector<double,std::allocator<_Ty>>> &std::back_insert_iterator<std::vector<_Ty,std::allocator<_Ty>>>::operator =(double &&)'
+          with
+          [
+              _Ty=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.12.25827\include\xutility(4118): note: ou       'std::back_insert_iterator<std::vector<double,std::allocator<_Ty>>> &std::back_insert_iterator<std::vector<_Ty,std::allocator<_Ty>>>::operator =(const double &)'
+          with
+          [
+              _Ty=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.12.25827\include\algorithm(1007): note: lors de la tentative de mise en correspondance de la liste des arguments '(std::back_insert_iterator<std::vector<double,std::allocator<_Ty>>>, std::pair<const _Kty,_Ty>)'
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.12.25827\include\algorithm(1020): note: voir la référence à l'instanciation de la fonction modèle '_OutIt std::_Transform_no_deprecate<_InIt,_OutIt,_Fn>(_InIt,_InIt,_OutIt,_Fn)' en cours de compilation
+          with
+          [
+              _OutIt=std::back_insert_iterator<std::vector<double,std::allocator<double>>>,
+              _InIt=std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<Utilisateur *const ,double>>>>,
+              _Fn=GestionnaireUtilisateurs::getComptes::<lambda_1eae3b199063100cfdc98cdad49ff78d>
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\gestionnaireutilisateurs.cpp(18): note: voir la référence à l'instanciation de la fonction modèle '_OutIt std::transform<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,std::back_insert_iterator<std::vector<double,std::allocator<double>>>,GestionnaireUtilisateurs::getComptes::<lambda_1eae3b199063100cfdc98cdad49ff78d>>(_InIt,_InIt,_OutIt,_Fn)' en cours de compilation
+          with
+          [
+              _OutIt=std::back_insert_iterator<std::vector<double,std::allocator<double>>>,
+              _Ty=std::pair<Utilisateur *const ,double>,
+              _InIt=std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<Utilisateur *const ,double>>>>,
+              _Fn=GestionnaireUtilisateurs::getComptes::<lambda_1eae3b199063100cfdc98cdad49ff78d>
+          ]
+  gestionnaireDepenses.cpp
+  Génération de code en cours...
