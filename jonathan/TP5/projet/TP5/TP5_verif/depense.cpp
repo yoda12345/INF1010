@@ -1,17 +1,25 @@
 /********************************************
 * Titre: Travail pratique #4 - depense.cpp
-* Date: 19 octobre 2018
-* Auteur: Wassim Khene & Ryan Hardie
+* Date: 18 novembre 2018
+* Auteur: Jonathan Laroche (1924839) & Hakim Payman (1938609) & (1935516)
 *******************************************/
 
 #include "depense.h"
 
 // Constucteurs
 
-Depense::Depense(const string& nom, double montant, const string& lieu) : nom_(nom), montant_(montant), lieu_(new string(lieu)) {
+Depense::Depense(const string& nom, 
+				 double montant, 
+				 const string& lieu) : 
+	nom_(nom), 
+	montant_(montant), 
+	lieu_(new string(lieu)) {
 }
 
-Depense::Depense(const Depense& depense) : nom_(depense.nom_), montant_(depense.montant_), lieu_(new string(*(depense.lieu_))) {
+Depense::Depense(const Depense& depense) : 
+	nom_(depense.nom_),
+	montant_(depense.montant_),
+	lieu_(new string(*(depense.lieu_))) {
 }
 
 Depense::~Depense()
@@ -61,5 +69,7 @@ Depense& Depense::operator=(const Depense & depense)
 // Methode d'affichage
 ostream & operator<<(ostream& os, const Depense& depense)
 {
-	return os << "- Depense (a " << *depense.lieu_ << ") : "  << depense.nom_ << ". Prix : " << depense.montant_ << "$" << endl;
+	return os << "- Depense (a " << *depense.lieu_ << ") : "  
+			  << depense.nom_ << ". Prix : " << depense.montant_ 
+			  << "$" << endl;
 }

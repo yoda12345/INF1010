@@ -1,4 +1,12 @@
-﻿  main.cpp
+﻿  gestionnaireDepenses.cpp
+  Génération de code en cours...
+  Compilation en cours...
+  main.cpp
 c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\tp5_verif\main.cpp(269): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
 c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\tp5_verif\main.cpp(309): warning C4018: '<' : incompatibilité signed/unsigned
+  groupe.cpp
+  gestionnaireUtilisateurs.cpp
+  Génération de code en cours...
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\tp5_verif\gestionnaireutilisateurs.cpp(48): warning C4172: retourne l'adresse d'une variable locale ou : maxPair temporaire
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5\tp5_verif\gestionnaireutilisateurs.cpp(63): warning C4172: retourne l'adresse d'une variable locale ou : minPair temporaire
   TP5_verif.vcxproj -> C:\Users\Utilisateur\OneDrive - polymtl.ca\Aut.2018\INF1010\gitTeam\jonathan\TP5\projet\TP5\TP5_verif\Debug\TP5_verif.exe

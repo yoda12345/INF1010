@@ -1,7 +1,7 @@
 /********************************************
 * Titre: Travail pratique #5 - main.cpp
-* Date: 4 nonvembre 2018
-* Auteur: Wassim Khene & Ryan Hardie
+* Date: 18 novembre 2018
+* Auteur: Jonathan Laroche (1924839) & Hakim Payman (1938609) & (1935516)
 *******************************************/
 
 #include <iostream>

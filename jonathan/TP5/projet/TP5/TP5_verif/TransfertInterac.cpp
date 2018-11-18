@@ -1,13 +1,16 @@
 /********************************************
 * Titre: Travail pratique #4 - transfertInterac.cpp
-* Date: 19 octobre 2018
-* Auteur: Wassim Khene & Ryan Hardie
+* Date: 18 novembre 2018
+* Auteur: Jonathan Laroche (1924839) & Hakim Payman (1938609) & (1935516)
 *******************************************/
 
 #include "transfertInterac.h"
 
-TransfertInterac::TransfertInterac(double montant, Utilisateur* expediteur, Utilisateur* receveur)
-	: Transfert(montant, expediteur, receveur), courriel_(receveur->getCourriel())
+TransfertInterac::TransfertInterac(double montant, 
+								   Utilisateur* expediteur,
+								   Utilisateur* receveur)
+	: Transfert(montant, expediteur, receveur), 
+	  courriel_(receveur->getCourriel())
 {
 }
 

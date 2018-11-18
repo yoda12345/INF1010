@@ -1,17 +1,23 @@
 /********************************************
 * Titre: Travail pratique #4 - transfert.cpp
-* Date: 19 octobre 2018
-* Auteur: Wassim Khene & Ryan Hardie
+* Date: 18 novembre 2018
+* Auteur: Jonathan Laroche (1924839) & Hakim Payman (1938609) & (1935516)
 *******************************************/
 
 #include "transfert.h"
 
 // Constructeurs
-Transfert::Transfert() : montant_(0), expediteur_(nullptr), receveur_(nullptr) {
+Transfert::Transfert() : montant_(0), expediteur_(nullptr), receveur_(nullptr)
+{
 }
 
-Transfert::Transfert(double montant, Utilisateur* expediteur, Utilisateur* receveur) : 
-	montant_(montant), expediteur_(expediteur), receveur_(receveur) {
+Transfert::Transfert(double montant, 
+					 Utilisateur* expediteur,
+					 Utilisateur* receveur) : 
+	montant_(montant),
+	expediteur_(expediteur), 
+	receveur_(receveur) 
+{
 }
 
 // Methodes d'acces
@@ -53,6 +59,8 @@ void Transfert::effectuerTransfert() {
 
 //Methode affichage
 ostream& operator<<(ostream& os, const Transfert& transfert) {
-	return os << "- " << left << setw(8) <<setfill(' ') << transfert.getExpediteur()->getNom() << " -> "  
-		<< left << setw(8) << transfert.getReceveur()->getNom() << " : " << transfert.getMontant() << "$" << endl;
+	return os << "- " << left << setw(8) <<setfill(' ') 
+			  << transfert.getExpediteur()->getNom() << " -> "  
+			  << left << setw(8) << transfert.getReceveur()->getNom() 
+			  << " : " << transfert.getMontant() << "$" << endl;
 }

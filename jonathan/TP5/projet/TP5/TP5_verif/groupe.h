@@ -1,7 +1,7 @@
 /********************************************
 * Titre: Travail pratique #5 - groupe.h
-* Date: 4 novembre 2018
-* Auteur: Ryan Hardie
+* Date: 18 novembre 2018
+* Auteur: Jonathan Laroche (1924839) & Hakim Payman (1938609) & (1935516)
 *******************************************/
 
 #ifndef GROUPE_H
@@ -34,14 +34,10 @@ public:
 	// Methodes d'acces
 	string getNom() const;
 	vector<Transfert*> getTransferts() const;
-
-	// TODO : À modifier :
 	vector<double> getComptes() const;
 	double getTotalDepenses() const;
 	vector<Depense*> getDepenses() const;
 	map<Utilisateur*, double> getUtilisateurs() const;
-
-	// Ajouté :
 	GestionnaireUtilisateurs* getGestionnaireUtilisateurs();
 	GestionnaireDepenses* getGestionnaireDepenses();
 
@@ -49,7 +45,9 @@ public:
 	void setNom(const string& nom);
 
 	// Methodes d'ajout
-	Groupe& ajouterDepense(double montant, Utilisateur* payePar, const string& nom = "", const string& lieu = "Montreal");
+	Groupe& ajouterDepense(double montant, Utilisateur* payePar,
+						   const string& nom = "", 
+						   const string& lieu = "Montreal");
 	Groupe& operator+=(Utilisateur* utilisateur);
 
 	// Methodes de calcul
@@ -61,15 +59,6 @@ public:
 private:
 	string nom_;
 	vector<Transfert*> transferts_;
-
-	// TODO : À modifier :
-	vector<double> comptes_;
-
-	// Retiré :
-	// vector<Utilisateur*> utilisateurs_;
-	// vector<Depense*> depenses_;
-
-	// Ajouté :
 	GestionnaireUtilisateurs* gestionnaireUtilisateurs_;
 	GestionnaireDepenses* gestionnaireDepenses_;
 };

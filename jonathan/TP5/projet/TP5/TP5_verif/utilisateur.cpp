@@ -1,7 +1,7 @@
 /********************************************
 * Titre: Travail pratique #4 - utilisateur.cpp
-* Date: 19 octobre 2018
-* Auteur: Wassim Khene & Ryan Hardie
+* Date: 18 novembre 2018
+* Auteur: Jonathan Laroche (1924839) & Hakim Payman (1938609) & (1935516)
 *******************************************/
 
 #include "utilisateur.h"

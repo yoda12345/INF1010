@@ -1,7 +1,7 @@
 /********************************************
 * Titre: Travail pratique #4 - utilisateurPremium.h
-* Date: 19 octobre 2018
-* Auteur: Wassim Khene & Ryan Hardie
+* Date: 18 novembre 2018
+* Auteur: Jonathan Laroche (1924839) & Hakim Payman (1938609) & (1935516)
 *******************************************/
 
 #ifndef UTILISATEUR_PREMIUM_H
@@ -15,7 +15,11 @@ class UtilisateurPremium : public Utilisateur {
 public :
 
 	// Constructeurs 
-	UtilisateurPremium(const string& nom = "", MethodePaiement methodePaiement = Interac, unsigned int joursRestants = 0, const string& courriel = "", const string& idPaypal = "");
+	UtilisateurPremium(const string& nom = "",
+					   MethodePaiement methodePaiement = Interac,
+					   unsigned int joursRestants = 0,
+					   const string& courriel = "",
+					   const string& idPaypal = "");
 
 	// Methodes d'acces
 	unsigned int getJoursRestants() const; 
