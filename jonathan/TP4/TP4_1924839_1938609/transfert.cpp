@@ -23,13 +23,13 @@ double Transfert::getMontant() const
 }
 
 
-double Transfert::getFraisTransfert() const
-{
+//double Transfert::getFraisTransfert() const
+//{
 	// Si la version de Transfert de getFraisTransfert est appele
 	// (Normalement ce n'est pas le cas vu qu'elle est virtuel)
 	// ,le resultat de la fonction virtuel approprie sera retourne
-	return getFraisTransfert();
-}
+	//return getFraisTransfert();
+//}
 
 Utilisateur* Transfert::getExpediteur() const 
 {

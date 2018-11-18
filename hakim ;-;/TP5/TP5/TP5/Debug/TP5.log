@@ -1,0 +1,39 @@
+﻿  gestionnaireDepenses.cpp
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\gestionnairedepenses.cpp(10): warning C4018: '<': signed/unsigned mismatch
+  groupe.cpp
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\groupe.cpp(22): error C2039: 'getDepenses': is not a member of 'GestionnaireDepenses'
+  c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\gestionnairedepenses.h(11): note: see declaration of 'GestionnaireDepenses'
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\groupe.cpp(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\groupe.cpp(26): warning C4018: '<': signed/unsigned mismatch
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\groupe.cpp(42): error C2039: 'getDepenses': is not a member of 'GestionnaireDepenses'
+  c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\gestionnairedepenses.h(11): note: see declaration of 'GestionnaireDepenses'
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\groupe.cpp(97): error C2039: 'ajouterDepense': is not a member of 'GestionnaireDepenses'
+  c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\gestionnairedepenses.h(11): note: see declaration of 'GestionnaireDepenses'
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\groupe.cpp(198): warning C4018: '<': signed/unsigned mismatch
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\groupe.cpp(203): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(20): error C2011: 'FoncteurAjouterDepense': 'class' type redefinition
+  c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(20): note: see declaration of 'FoncteurAjouterDepense'
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(28): error C2027: use of undefined type 'FoncteurAjouterDepense'
+  c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(20): note: see declaration of 'FoncteurAjouterDepense'
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(28): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(29): error C2550: '{ctor}': constructor initializer lists are only allowed on constructor definitions
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(30): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(32): error C2027: use of undefined type 'FoncteurAjouterDepense'
+  c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(20): note: see declaration of 'FoncteurAjouterDepense'
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(33): error C2065: 'conteneur_': undeclared identifier
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(34): error C2065: 'conteneur_': undeclared identifier
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(48): error C2011: 'FoncteurAjouterUtilisateur': 'class' type redefinition
+  c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(48): note: see declaration of 'FoncteurAjouterUtilisateur'
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(57): error C2027: use of undefined type 'FoncteurAjouterUtilisateur'
+  c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(48): note: see declaration of 'FoncteurAjouterUtilisateur'
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(58): error C2550: '{ctor}': constructor initializer lists are only allowed on constructor definitions
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(59): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(61): error C2027: use of undefined type 'FoncteurAjouterUtilisateur'
+  c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(48): note: see declaration of 'FoncteurAjouterUtilisateur'
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(62): error C2065: 'conteneur_': undeclared identifier
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\main.cpp(269): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\main.cpp(309): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+c:\users\hakim\documents\polytechnique\a18\inf1010\tps\tp5\énoncé\foncteur.h(63): error C4716: 'FoncteurAjouterUtilisateur::operator()': must return a value
