@@ -1,0 +1,779 @@
+﻿  main.cpp
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): error C2244: 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(28): note: voir la déclaration de 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: 'C GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: 'C GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): error C2244: 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(34): note: voir la déclaration de 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: 'void GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter(T)'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: 'void GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter(T)'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): error C2244: 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(41): note: voir la déclaration de 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: 'int GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: 'int GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(25): error C2953: 'GestionnaireGenerique' : modèle de classe déjà défini
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(9): note: voir la déclaration de 'GestionnaireGenerique'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): error C2244: 'GestionnaireGenerique::getConteneur' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(28): note: voir la déclaration de 'GestionnaireGenerique::getConteneur'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: 'C GestionnaireGenerique::getConteneur(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: 'C GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): error C2244: 'GestionnaireGenerique::ajouter' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(34): note: voir la déclaration de 'GestionnaireGenerique::ajouter'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: 'void GestionnaireGenerique::ajouter(T)'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: 'void GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter(T)'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): error C2244: 'GestionnaireGenerique::getNombreElements' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(41): note: voir la déclaration de 'GestionnaireGenerique::getNombreElements'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: 'int GestionnaireGenerique::getNombreElements(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: 'int GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.h(24): error C2955: 'GestionnaireGenerique' : l'utilisation de classe modèle requiert une liste d'arguments modèle
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(9): note: voir la déclaration de 'GestionnaireGenerique'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(25): error C2953: 'GestionnaireGenerique' : modèle de classe déjà défini
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(9): note: voir la déclaration de 'GestionnaireGenerique'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): error C2244: 'GestionnaireGenerique::getConteneur' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(28): note: voir la déclaration de 'GestionnaireGenerique::getConteneur'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: 'C GestionnaireGenerique::getConteneur(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: 'C GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): error C2244: 'GestionnaireGenerique::ajouter' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(34): note: voir la déclaration de 'GestionnaireGenerique::ajouter'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: 'void GestionnaireGenerique::ajouter(T)'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: 'void GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter(T)'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): error C2244: 'GestionnaireGenerique::getNombreElements' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(41): note: voir la déclaration de 'GestionnaireGenerique::getNombreElements'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: 'int GestionnaireGenerique::getNombreElements(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: 'int GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\main.cpp(269): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\main.cpp(309): warning C4018: '<' : incompatibilité signed/unsigned
+  groupe.cpp
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): error C2244: 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(28): note: voir la déclaration de 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: 'C GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: 'C GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): error C2244: 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(34): note: voir la déclaration de 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: 'void GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter(T)'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: 'void GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter(T)'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): error C2244: 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(41): note: voir la déclaration de 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: 'int GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: 'int GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(25): error C2953: 'GestionnaireGenerique' : modèle de classe déjà défini
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(9): note: voir la déclaration de 'GestionnaireGenerique'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): error C2244: 'GestionnaireGenerique::getConteneur' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(28): note: voir la déclaration de 'GestionnaireGenerique::getConteneur'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: 'C GestionnaireGenerique::getConteneur(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: 'C GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): error C2244: 'GestionnaireGenerique::ajouter' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(34): note: voir la déclaration de 'GestionnaireGenerique::ajouter'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: 'void GestionnaireGenerique::ajouter(T)'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: 'void GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter(T)'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): error C2244: 'GestionnaireGenerique::getNombreElements' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(41): note: voir la déclaration de 'GestionnaireGenerique::getNombreElements'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: 'int GestionnaireGenerique::getNombreElements(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: 'int GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.h(24): error C2955: 'GestionnaireGenerique' : l'utilisation de classe modèle requiert une liste d'arguments modèle
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(9): note: voir la déclaration de 'GestionnaireGenerique'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(25): error C2953: 'GestionnaireGenerique' : modèle de classe déjà défini
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(9): note: voir la déclaration de 'GestionnaireGenerique'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): error C2244: 'GestionnaireGenerique::getConteneur' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(28): note: voir la déclaration de 'GestionnaireGenerique::getConteneur'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: 'C GestionnaireGenerique::getConteneur(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: 'C GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): error C2244: 'GestionnaireGenerique::ajouter' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(34): note: voir la déclaration de 'GestionnaireGenerique::ajouter'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: 'void GestionnaireGenerique::ajouter(T)'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: 'void GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter(T)'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): error C2244: 'GestionnaireGenerique::getNombreElements' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(41): note: voir la déclaration de 'GestionnaireGenerique::getNombreElements'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: 'int GestionnaireGenerique::getNombreElements(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: 'int GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\groupe.cpp(22): error C2672: 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur' : fonction correspondante surchargée introuvable
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\groupe.cpp(22): error C2783: 'C GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'T'
+          with
+          [
+              _Ty=Depense *
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur'
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\groupe.cpp(22): error C2783: 'C GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'C'
+          with
+          [
+              _Ty=Depense *
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur'
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\groupe.cpp(22): error C2783: 'C GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'D'
+          with
+          [
+              _Ty=Depense *
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur'
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\groupe.cpp(22): error C2783: 'C GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'FoncteurAjouter'
+          with
+          [
+              _Ty=Depense *
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur'
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\groupe.cpp(23): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\groupe.cpp(26): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\groupe.cpp(42): error C2672: 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur' : fonction correspondante surchargée introuvable
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\groupe.cpp(42): error C2783: 'C GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'T'
+          with
+          [
+              _Ty=Depense *
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur'
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\groupe.cpp(42): error C2783: 'C GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'C'
+          with
+          [
+              _Ty=Depense *
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur'
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\groupe.cpp(42): error C2783: 'C GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'D'
+          with
+          [
+              _Ty=Depense *
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur'
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\groupe.cpp(42): error C2783: 'C GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'FoncteurAjouter'
+          with
+          [
+              _Ty=Depense *
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur'
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\groupe.cpp(96): error C2672: 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::ajouter' : fonction correspondante surchargée introuvable
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\groupe.cpp(96): error C2783: 'void GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::ajouter(T)' : impossible de déduire l'argument modèle pour 'C'
+          with
+          [
+              _Ty=Depense *
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(16): note: voir la déclaration de 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::ajouter'
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\groupe.cpp(96): error C2783: 'void GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::ajouter(T)' : impossible de déduire l'argument modèle pour 'D'
+          with
+          [
+              _Ty=Depense *
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(16): note: voir la déclaration de 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::ajouter'
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\groupe.cpp(96): error C2783: 'void GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::ajouter(T)' : impossible de déduire l'argument modèle pour 'FoncteurAjouter'
+          with
+          [
+              _Ty=Depense *
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(16): note: voir la déclaration de 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::ajouter'
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\groupe.cpp(108): error C2039: 'ajouter' : n'est pas membre de 'GestionnaireUtilisateurs'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.h(19): note: voir la déclaration de 'GestionnaireUtilisateurs'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\groupe.cpp(178): warning C4018: '<' : incompatibilité signed/unsigned
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\groupe.cpp(183): warning C4018: '<' : incompatibilité signed/unsigned
+  gestionnaireUtilisateurs.cpp
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): error C2244: 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(28): note: voir la déclaration de 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: 'C GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: 'C GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): error C2244: 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(34): note: voir la déclaration de 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: 'void GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter(T)'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: 'void GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter(T)'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): error C2244: 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(41): note: voir la déclaration de 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: 'int GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: 'int GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(15): error C2672: 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur' : fonction correspondante surchargée introuvable
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(15): error C2783: 'C GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'T'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(15): error C2783: 'C GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'C'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(15): error C2783: 'C GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'D'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(15): error C2783: 'C GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'FoncteurAjouter'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(15): error C2228: la partie gauche de '.begin' doit avoir un class/struct/union
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(16): error C2672: 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur' : fonction correspondante surchargée introuvable
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(16): error C2783: 'C GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'T'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(16): error C2783: 'C GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'C'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(16): error C2783: 'C GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'D'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(16): error C2783: 'C GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'FoncteurAjouter'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(16): error C2228: la partie gauche de '.end' doit avoir un class/struct/union
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(15): error C2672: 'transform' : fonction correspondante surchargée introuvable
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(18): error C2780: '_DestTy *std::transform(_InIt1,_InIt1,_RightTy (&)[_RightSize],_DestTy (&)[_DestSize],_Fn)' : 5 arguments attendus - 3 fournis
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.12.25827\include\algorithm(1105): note: voir la déclaration de 'std::transform'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(18): error C2780: '_DestTy *std::transform(_InIt1,_InIt1,_InIt2,_DestTy (&)[_DestSize],_Fn)' : 5 arguments attendus - 3 fournis
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.12.25827\include\algorithm(1090): note: voir la déclaration de 'std::transform'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(18): error C2780: '_OutIt std::transform(_InIt1,_InIt1,_RightTy (&)[_RightSize],_OutIt,_Fn)' : 5 arguments attendus - 3 fournis
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.12.25827\include\algorithm(1077): note: voir la déclaration de 'std::transform'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(18): error C2780: '_OutIt std::transform(_InIt1,_InIt1,_InIt2,_OutIt,_Fn)' : 5 arguments attendus - 3 fournis
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.12.25827\include\algorithm(1062): note: voir la déclaration de 'std::transform'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(18): error C2780: '_DestTy *std::transform(_InIt,_InIt,_DestTy (&)[_DestSize],_Fn)' : 4 arguments attendus - 3 fournis
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.12.25827\include\algorithm(1028): note: voir la déclaration de 'std::transform'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(18): error C2780: '_OutIt std::transform(_InIt,_InIt,_OutIt,_Fn)' : 4 arguments attendus - 3 fournis
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.12.25827\include\algorithm(1016): note: voir la déclaration de 'std::transform'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(25): error C2672: 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements' : fonction correspondante surchargée introuvable
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(25): error C2783: 'int GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements(void) const' : impossible de déduire l'argument modèle pour 'T'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(19): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(25): error C2783: 'int GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements(void) const' : impossible de déduire l'argument modèle pour 'C'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(19): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(25): error C2783: 'int GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements(void) const' : impossible de déduire l'argument modèle pour 'D'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(19): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(25): error C2783: 'int GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements(void) const' : impossible de déduire l'argument modèle pour 'FoncteurAjouter'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(19): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(30): error C2672: 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur' : fonction correspondante surchargée introuvable
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(30): error C2783: 'C GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'T'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(30): error C2783: 'C GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'C'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(30): error C2783: 'C GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'D'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(30): error C2783: 'C GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'FoncteurAjouter'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getConteneur'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(45): error C2672: 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements' : fonction correspondante surchargée introuvable
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(45): error C2783: 'int GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements(void) const' : impossible de déduire l'argument modèle pour 'T'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(19): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(45): error C2783: 'int GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements(void) const' : impossible de déduire l'argument modèle pour 'C'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(19): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(45): error C2783: 'int GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements(void) const' : impossible de déduire l'argument modèle pour 'D'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(19): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(45): error C2783: 'int GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements(void) const' : impossible de déduire l'argument modèle pour 'FoncteurAjouter'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(19): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(73): error C2672: 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements' : fonction correspondante surchargée introuvable
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(73): error C2783: 'int GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements(void) const' : impossible de déduire l'argument modèle pour 'T'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(19): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(73): error C2783: 'int GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements(void) const' : impossible de déduire l'argument modèle pour 'C'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(19): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(73): error C2783: 'int GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements(void) const' : impossible de déduire l'argument modèle pour 'D'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(19): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(73): error C2783: 'int GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements(void) const' : impossible de déduire l'argument modèle pour 'FoncteurAjouter'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(19): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(85): error C2672: 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements' : fonction correspondante surchargée introuvable
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(85): error C2783: 'int GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements(void) const' : impossible de déduire l'argument modèle pour 'T'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(19): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(85): error C2783: 'int GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements(void) const' : impossible de déduire l'argument modèle pour 'C'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(19): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(85): error C2783: 'int GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements(void) const' : impossible de déduire l'argument modèle pour 'D'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(19): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnaireutilisateurs.cpp(85): error C2783: 'int GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements(void) const' : impossible de déduire l'argument modèle pour 'FoncteurAjouter'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(19): note: voir la déclaration de 'GestionnaireGenerique<Utilisateur *,std::map<Utilisateur *,double,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>,std::pair<Utilisateur *,double> *,AjouterUtilisateur>::getNombreElements'
+          with
+          [
+              _Kty=Utilisateur *,
+              _Ty=double
+          ]
+  gestionnaireDepenses.cpp
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): error C2244: 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(28): note: voir la déclaration de 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: 'C GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(29): note: 'C GestionnaireGenerique<T,C,D,FoncteurAjouter>::getConteneur(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): error C2244: 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(34): note: voir la déclaration de 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: 'void GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter(T)'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(35): note: 'void GestionnaireGenerique<T,C,D,FoncteurAjouter>::ajouter(T)'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): error C2244: 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements' : impossible de faire correspondre la définition de fonction avec une déclaration existante
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(41): note: voir la déclaration de 'GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: définition
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: 'int GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements(void) const'
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: déclarations existantes
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(42): note: 'int GestionnaireGenerique<T,C,D,FoncteurAjouter>::getNombreElements(void) const'
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairedepenses.cpp(10): error C2672: 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur' : fonction correspondante surchargée introuvable
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairedepenses.cpp(10): error C2783: 'C GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'T'
+          with
+          [
+              _Ty=Depense *
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur'
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairedepenses.cpp(10): error C2783: 'C GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'C'
+          with
+          [
+              _Ty=Depense *
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur'
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairedepenses.cpp(10): error C2783: 'C GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'D'
+          with
+          [
+              _Ty=Depense *
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur'
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairedepenses.cpp(10): error C2783: 'C GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'FoncteurAjouter'
+          with
+          [
+              _Ty=Depense *
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur'
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairedepenses.cpp(10): error C2228: la partie gauche de '.begin' doit avoir un class/struct/union
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairedepenses.cpp(11): error C2672: 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur' : fonction correspondante surchargée introuvable
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairedepenses.cpp(11): error C2783: 'C GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'T'
+          with
+          [
+              _Ty=Depense *
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur'
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairedepenses.cpp(11): error C2783: 'C GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'C'
+          with
+          [
+              _Ty=Depense *
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur'
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairedepenses.cpp(11): error C2783: 'C GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'D'
+          with
+          [
+              _Ty=Depense *
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur'
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairedepenses.cpp(11): error C2783: 'C GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur(void) const' : impossible de déduire l'argument modèle pour 'FoncteurAjouter'
+          with
+          [
+              _Ty=Depense *
+          ]
+  c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairegenerique.h(13): note: voir la déclaration de 'GestionnaireGenerique<Depense *,std::vector<Depense *,std::allocator<_Ty>>,Depense *,AjouterDepense>::getConteneur'
+          with
+          [
+              _Ty=Depense *
+          ]
+c:\users\utilisateur\onedrive - polymtl.ca\aut.2018\inf1010\gitteam\jonathan\tp5\projet\tp5_vdemarde\gestionnairedepenses.cpp(11): error C2228: la partie gauche de '.end' doit avoir un class/struct/union
+  Génération de code en cours...
