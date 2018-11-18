@@ -21,6 +21,7 @@ class GestionnaireDepenses:
 public:
 	double getTotalDepenses() const;
 	vector<Depense*> getDepenses() const;
+	virtual void ajouter(Depense* depense);
 };
 
 #endif

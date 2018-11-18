@@ -25,6 +25,57 @@ int GestionnaireUtilisateurs::getNombreUtilisateurs() const
 	return getNombreElements();
 }
 
+void GestionnaireUtilisateurs::ajouter(Utilisateur* utilisateur)
+{
+
+	bool doitRenouveler = false;
+	bool estAjouter = true;
+
+	// Si le type est Regulier, il faut verifier s'il est dans un groupe
+	// Si le type est Premium, il faut verifier l'etat de son abonnement
+	if (typeid(*utilisateur) == typeid(UtilisateurRegulier))
+	{
+		bool estGroupe =
+			dynamic_cast<UtilisateurRegulier*>(utilisateur)->getPossedeGroupe();
+
+		if (estGroupe == true)
+			estAjouter = false;
+		else
+		{
+			dynamic_cast<UtilisateurRegulier*>(utilisateur)
+				->setPossedeGroupe(true);
+		}
+	}
+	else
+	{
+		unsigned int joursRestants =
+			dynamic_cast<UtilisateurPremium*>(utilisateur)->getJoursRestants();
+
+		if (joursRestants == 0)
+		{
+			estAjouter = false;
+			doitRenouveler = true;
+		}
+	}
+
+	// Ajout de l'utilisateur ou bien affichage d'un message d'erreur
+	if (estAjouter == true)
+	{
+		GestionnaireGenerique::ajouter(utilisateur);
+	}
+	else if (doitRenouveler == true)
+	{
+		cout << "\nErreur	:	" << utilisateur->getNom()
+			<< " doit renouveler son abonnement Premium";
+	}
+	else
+	{
+		cout << "\nErreur	:	" << utilisateur->getNom()
+			<< " n'est pas souscrit a un abonnement premium,"
+			<< " et est deja groupe";
+	}
+
+}
 
 map<Utilisateur*, double> GestionnaireUtilisateurs::getUtilisateurs() const
 {
@@ -74,7 +125,10 @@ pair<Utilisateur*, double>& GestionnaireUtilisateurs::getMax() const
 	for (int i = 0; i < getNombreElements(); i++)
 	{
 		if (getElementParIndex(i).second > max)
+		{
 			maxPair = getElementParIndex(i);
+			max = maxPair.second;
+		}
 	}
 	return maxPair;
 }
@@ -86,13 +140,16 @@ pair<Utilisateur*, double>& GestionnaireUtilisateurs::getMin() const
 	for (int i = 0; i < getNombreElements(); i++)
 	{
 		if (getElementParIndex(i).second < min)
+		{
 			minPair = getElementParIndex(i);
+			min = minPair.second;
+		}
 	}
 	return minPair;
 }
 
 // A SURVEILLER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-pair<Utilisateur*, double>& GestionnaireUtilisateurs::getUtilisateurSuivant(Utilisateur* utilisateur, double montant) const
+Utilisateur* GestionnaireUtilisateurs::getUtilisateurSuivant(Utilisateur* utilisateur, double montant) const
 {
 	auto utilisateurPresent =
 		find_if(
@@ -102,7 +159,7 @@ pair<Utilisateur*, double>& GestionnaireUtilisateurs::getUtilisateurSuivant(Util
 				_1, 
 				pair<Utilisateur*, double>(utilisateur, montant))
 			);	pair<Utilisateur*, double> pair = *(++utilisateurPresent);
-	return pair;
+	return pair.first;
 }
 
 vector<pair<Utilisateur*, double>> GestionnaireUtilisateurs::getUtilisateursEntre(double borneInf, double borneSup) const

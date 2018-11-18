@@ -15,3 +15,8 @@ vector<Depense*> GestionnaireDepenses::getDepenses() const
 {
 	return getConteneur();
 }
+
+void GestionnaireDepenses::ajouter(Depense* depense)
+{
+	GestionnaireGenerique::ajouter(depense);
+}

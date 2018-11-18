@@ -12,7 +12,7 @@ class GestionnaireGenerique
 {
 public:
 	C getConteneur() const;
-	void ajouter(T t);
+	virtual void ajouter(T t) = 0;
 	int getNombreElements() const;
 	D getElementParIndex(int i) const;
 

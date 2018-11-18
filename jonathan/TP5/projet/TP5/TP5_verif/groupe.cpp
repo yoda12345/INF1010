@@ -54,8 +54,9 @@ vector<Transfert*> Groupe::getTransferts() const
 }
 
 // TODO : À modifier :
-vector<double> Groupe::getComptes() const {
-	return comptes_;
+vector<double> Groupe::getComptes() const 
+{
+	return gestionnaireUtilisateurs_->getComptes();
 }
 
 double Groupe::getTotalDepenses() const {
@@ -107,7 +108,6 @@ Groupe& Groupe::operator+=(Utilisateur* utilisateur)
 	// Ajouté :
 	gestionnaireUtilisateurs_->ajouter(utilisateur);
 
-	comptes_.push_back(0);
 	return *this;
 }
 
@@ -119,20 +119,6 @@ void Groupe::equilibrerComptes() {
 	while (calcul) {
 		pair<Utilisateur*, double> utilisateurMax = gestionnaireUtilisateurs_->getMax();
 		pair<Utilisateur*, double> utilisateurMin = gestionnaireUtilisateurs_->getMin();
-		//int indexMax = 0;
-		//int indexMin = 0;
-
-		//// On cherche le compte le plus eleve et le moins eleve
-		//for (int i = 0; i < gestionnaireUtilisateurs_->getNombreUtilisateurs(); i++) {
-		//	if (comptes_[i] > max) {
-		//		max = comptes_[i];
-		//		indexMax = i;
-		//	}
-		//	if (comptes_[i] < min) {
-		//		min = comptes_[i];
-		//		indexMin = i;
-		//	}
-		//}
 
 		// On cherche lequel des deux a la dette la plus grande
 		if (-(utilisateurMin.second) <= utilisateurMax.second && utilisateurMin.second != 0 && utilisateurMax.second != 0) {

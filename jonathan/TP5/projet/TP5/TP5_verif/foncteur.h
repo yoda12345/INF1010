@@ -80,7 +80,7 @@ public:
 
 	bool operator()(pair<Utilisateur*, double> paire)
 	{
-		if ((paire.second > borneInf_) && (paire.second < borneSup_))
+		if ((paire.second >= borneInf_) && (paire.second <= borneSup_))
 			return true;
 		else
 			return false;

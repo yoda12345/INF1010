@@ -27,6 +27,8 @@ public:
 
 	vector<double> getComptes() const;
 
+	virtual void ajouter(Utilisateur* t);
+
 	int getNombreUtilisateurs() const;
 
 	map<Utilisateur*, double> getUtilisateurs() const;
@@ -41,10 +43,12 @@ public:
 
 	pair<Utilisateur*, double>& getMin() const;
 
-	pair<Utilisateur*, double>& getUtilisateurSuivant(Utilisateur* utilisateur, double montant) const;
+	Utilisateur* getUtilisateurSuivant(Utilisateur* utilisateur, double montant) const;
 
 	vector<pair<Utilisateur*, double>> getUtilisateursEntre(double borneInf, double borneSup) const;
 
 	GestionnaireUtilisateurs& setCompte(pair<Utilisateur*, double> paire);
+
+	
 
 };
