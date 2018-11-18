@@ -1,19 +1,13 @@
 ﻿  utilisateurRegulier.cpp
   utilisateurPremium.cpp
   utilisateur.cpp
-  transfert.cpp
-  main.cpp
-c:\users\utilisateur\onedrive\documents\aut.2018\inf1010\gitteam\jonathan\tp4\tp4\main.cpp(8): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-c:\users\utilisateur\onedrive\documents\aut.2018\inf1010\gitteam\jonathan\tp4\tp4\main.cpp(224): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-  groupe.cpp
-c:\users\utilisateur\onedrive\documents\aut.2018\inf1010\gitteam\jonathan\tp4\tp4\groupe.cpp(73): warning C4018: '<' : incompatibilité signed/unsigned
-c:\users\utilisateur\onedrive\documents\aut.2018\inf1010\gitteam\jonathan\tp4\tp4\groupe.cpp(233): warning C4018: '<' : incompatibilité signed/unsigned
-c:\users\utilisateur\onedrive\documents\aut.2018\inf1010\gitteam\jonathan\tp4\tp4\groupe.cpp(296): warning C4018: '>=' : incompatibilité signed/unsigned
-c:\users\utilisateur\onedrive\documents\aut.2018\inf1010\gitteam\jonathan\tp4\tp4\groupe.cpp(307): warning C4018: '<' : incompatibilité signed/unsigned
-c:\users\utilisateur\onedrive\documents\aut.2018\inf1010\gitteam\jonathan\tp4\tp4\groupe.cpp(314): warning C4018: '<' : incompatibilité signed/unsigned
-c:\users\utilisateur\onedrive\documents\aut.2018\inf1010\gitteam\jonathan\tp4\tp4\groupe.cpp(319): warning C4018: '<' : incompatibilité signed/unsigned
-  depense.cpp
   TransfertPaypal.cpp
   TransfertInterac.cpp
+  transfert.cpp
+  main.cpp
+c:\users\utilisateur\desktop\tp4_1924839_1938609 (1)\tp4_1924839_1938609\main.cpp(224): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
+  groupe.cpp
+c:\users\utilisateur\desktop\tp4_1924839_1938609 (1)\tp4_1924839_1938609\groupe.cpp(309): warning C4018: '>=' : incompatibilité signed/unsigned
+  depense.cpp
   Génération de code en cours...
   TP4.vcxproj -> C:\Users\Utilisateur\OneDrive\Documents\Aut.2018\INF1010\gitTeam\jonathan\TP4\TP4\Debug\TP4.exe

@@ -40,6 +40,19 @@ Groupe::Groupe(const Groupe& groupe) :
 		}
 	}
 }
+//Destructeur
+Groupe::~Groupe()
+{
+	for (size_t i = 0; i < depenses_.size(); i++)
+	{
+		delete depenses_[i];
+	}
+
+	for (size_t i = 0; i < transferts_.size(); i++)
+	{
+		delete transferts_[i];
+	}
+}
 
 // Methodes d'acces
 string Groupe::getNom() const 
@@ -70,7 +83,7 @@ vector<double> Groupe::getComptes() const
 double Groupe::getTotalDepenses() const 
 {
 	double totalDepenses = 0;
-	for (int i = 0; i < depenses_.size(); i++) {
+	for (size_t i = 0; i < depenses_.size(); i++) {
 		totalDepenses += depenses_[i]->getMontant();
 	}
 	return totalDepenses;
@@ -148,12 +161,12 @@ Groupe& Groupe::ajouterDepense(double montant, Utilisateur* payePar, const strin
 		*payePar += depenses_.back();
 		double montantIndividuel = montant / utilisateurs_.size();
 
-		for (size_t i = 0; i < utilisateurs_.size(); i++)
+		for (size_t j = 0; j < utilisateurs_.size(); j++)
 		{
-			if (payePar != utilisateurs_[i])
-				comptes_[i] -= montantIndividuel;
+			if (payePar != utilisateurs_[j])
+				comptes_[j] -= montantIndividuel;
 			else
-				comptes_[i] += (montant - montantIndividuel);
+				comptes_[j] += (montant - montantIndividuel);
 		}
 	}
 	else
@@ -230,7 +243,7 @@ void Groupe::equilibrerComptes() {
 		int indexMin = 0;
 
 		// On cherche le compte le plus eleve et le moins eleve
-		for (int i = 0; i < utilisateurs_.size(); i++) {
+		for (size_t i = 0; i < utilisateurs_.size(); i++) {
 			if (comptes_[i] > max) {
 				max = comptes_[i];
 				indexMax = i;
@@ -304,19 +317,19 @@ void Groupe::equilibrerComptes() {
 ostream& operator<<(ostream& os, const Groupe& groupe)
 {
 	os << "\nGroupe " << groupe.nom_ << ".\nCout total: " << groupe.getTotalDepenses() << "$ \nUtilisateurs:    \n\n";
-	for (int i = 0; i < groupe.utilisateurs_.size(); i++) {
+	for (size_t i = 0; i < groupe.utilisateurs_.size(); i++) {
 		os <<"\n\t " << *groupe.utilisateurs_[i];
 	}
 	os << endl;
 
 	if (groupe.transferts_.size() != 0) {
 		os << "Transferts :" << endl;
-		for (int i = 0; i < groupe.transferts_.size(); i++)
+		for (size_t i = 0; i < groupe.transferts_.size(); i++)
 			os << "\t" << *(groupe.transferts_[i]);
 	}
 	else {
 		os << "Les comptes ne sont pas equilibres" << endl << endl;
-		for (int i = 0; i < groupe.comptes_.size(); i++) {
+		for (size_t i = 0; i < groupe.comptes_.size(); i++) {
 			os << groupe.utilisateurs_[i]->getNom() << " : " << groupe.comptes_[i] << endl;
 		}
 	}

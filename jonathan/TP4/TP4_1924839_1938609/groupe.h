@@ -25,6 +25,9 @@ public:
 	Groupe(const string& nom);
 	Groupe(const Groupe & groupe);
 
+	//Destructeur
+	~Groupe();
+
 	// Methodes d'acces
 	string getNom() const;
 	vector<Depense*> getDepenses() const;

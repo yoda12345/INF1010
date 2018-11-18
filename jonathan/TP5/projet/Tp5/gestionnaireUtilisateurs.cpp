@@ -8,7 +8,7 @@
 #include "utilisateurPremium.h"
 #include "utilisateurRegulier.h"
 
-vector<double> GestionnaireUtilisateurs::getComptes() const
+vector<double> GestionnaireUtilisateurs ::getComptes() const
 {
 	vector<double> comptes;
 

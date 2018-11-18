@@ -18,6 +18,30 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\depense.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\groupe.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\main.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\transfert.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\TransfertInterac.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\TransfertPaypal.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\utilisateur.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\utilisateurPremium.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\utilisateurRegulier.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\depense.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\groupe.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\transfert.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\transfertInterac.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\transfertPaypal.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\utilisateur.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\utilisateurPremium.h" />
+    <ClInclude Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\utilisateurRegulier.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\ReponsesAuxQuestions.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{ECBD80AA-8DA1-41C1-A221-EAA8FE7EC9BF}</ProjectGuid>
@@ -84,7 +108,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
+      <WarningLevel>Level4</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
@@ -108,7 +132,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
+      <WarningLevel>Level4</WarningLevel>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -138,27 +162,6 @@
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\depense.cpp" />
-    <ClCompile Include="..\groupe.cpp" />
-    <ClCompile Include="..\main.cpp" />
-    <ClCompile Include="..\transfert.cpp" />
-    <ClCompile Include="..\TransfertInterac.cpp" />
-    <ClCompile Include="..\TransfertPaypal.cpp" />
-    <ClCompile Include="..\utilisateur.cpp" />
-    <ClCompile Include="..\utilisateurPremium.cpp" />
-    <ClCompile Include="..\utilisateurRegulier.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\depense.h" />
-    <ClInclude Include="..\groupe.h" />
-    <ClInclude Include="..\transfert.h" />
-    <ClInclude Include="..\transfertInterac.h" />
-    <ClInclude Include="..\transfertPaypal.h" />
-    <ClInclude Include="..\utilisateur.h" />
-    <ClInclude Include="..\utilisateurPremium.h" />
-    <ClInclude Include="..\utilisateurRegulier.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

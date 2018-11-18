@@ -5,33 +5,39 @@
 *******************************************/
 
 
-template<typename T, typename C, typename D, typename FoncteurAjouter> 
+template<class T, class C, class D, class FoncteurAjouter>
 class GestionnaireGenerique
 {
 public:
+	template<class T, class C, class D, class FoncteurAjouter>
 	C getConteneur() const;
+
+	template<class T, class C, class D, class FoncteurAjouter>
 	void ajouter(T t);
+
+	template<class T, class C, class D, class FoncteurAjouter>
 	int getNombreElements() const;
+
 	D getElementParIndex(int i);
 
 protected:
 	C conteneur_;
 };
 
-template<typename T, typename C, typename D, typename FoncteurAjouter>
+template<class T, class C, class D, class FoncteurAjouter>
 C GestionnaireGenerique< T, C, D, FoncteurAjouter>::getConteneur() const
 {
 	return conteneur_;
 };
 
-template<typename T, typename C, typename D, typename FoncteurAjouter>
+template<class T, class C, class D, class FoncteurAjouter>
 void GestionnaireGenerique< T, C, D, FoncteurAjouter>::ajouter(T t)
 {
 	FonteurAjouter foncteurAjouter(conteneur_);
 	foncteur(t);
 };
 
-template<typename T, typename C, typename D, typename FoncteurAjouter>
+template<class T, class C, class D, class FoncteurAjouter>
 int GestionnaireGenerique< T, C, D, FoncteurAjouter>::getNombreElements() const
 {
 	return conteneur_.size();

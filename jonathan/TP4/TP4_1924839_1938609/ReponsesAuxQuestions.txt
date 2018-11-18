@@ -30,18 +30,18 @@ Ce qui sera affiché:
 
 2. Pourquoi?
 
-Parce que la méthode f n'est pas declaré virtual dans la classe A.
-Cette classe est celle de base, elle ne donc sera pas décalré
-virtual automatiquement même si la methode f de B est déclaré virtual.
+Parce que la méthode f n'est pas declarée virtuelle dans la classe A.
+Puisque cette classe est la classe de base, elle ne sera donc pas déclarée
+virtuelle automatiquement même si la méthode f de B est déclarée virtuelle.
 
 3. Si le vecteur v était de type vector<B*> et la variable b était de type C, proposez
 deux solutions pour que la sortie soit celle de la méthode B::f().
 
 Solution 1:
-Ne pas déclaré la methode f comme virtuel dans la classe B
+Ne pas déclarer la méthode f comme virtuelle dans la classe B
 
 Solution 2:
-Appeler la méthode f en precisant vouloir celle de la classe B de cette façon:
+Appeler la méthode f en précisant vouloir celle de la classe B de cette façon:
 v[0]->B::f();
 
 

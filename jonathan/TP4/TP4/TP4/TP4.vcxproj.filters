@@ -15,58 +15,61 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\depense.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\depense.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\groupe.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\groupe.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\main.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\main.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\transfert.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\transfert.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\TransfertInterac.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\TransfertInterac.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\TransfertPaypal.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\TransfertPaypal.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\utilisateur.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\utilisateur.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\utilisateurPremium.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\utilisateurPremium.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="..\utilisateurRegulier.cpp">
+    <ClCompile Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\utilisateurRegulier.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\depense.h">
+    <ClInclude Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\depense.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="..\groupe.h">
+    <ClInclude Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\groupe.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="..\transfert.h">
+    <ClInclude Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\transfert.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="..\transfertInterac.h">
+    <ClInclude Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\transfertInterac.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="..\transfertPaypal.h">
+    <ClInclude Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\transfertPaypal.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="..\utilisateur.h">
+    <ClInclude Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\utilisateur.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="..\utilisateurPremium.h">
+    <ClInclude Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\utilisateurPremium.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="..\utilisateurRegulier.h">
+    <ClInclude Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\utilisateurRegulier.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\..\..\..\..\..\Desktop\TP4_1924839_1938609 (1)\TP4_1924839_1938609\ReponsesAuxQuestions.txt" />
   </ItemGroup>
 </Project>

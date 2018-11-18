@@ -27,6 +27,7 @@ public:
 	vector<double> getComptes() const;
 
 	int getNombreUtilisateurs() const;
+
 	map<Utilisateur*, double> getUtilisateurs() const;
 
 	bool estExistant(Utilisateur * utilisateur) const;
